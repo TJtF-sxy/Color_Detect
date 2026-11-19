@@ -1,0 +1,6 @@
+Invoking command in '/home/suixi/ros2_ws/build/color_detect': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/suixi/ros2_ws/src/color_detect -DCMAKE_EXPORT_COMPILE_COMMANDS=ON -DCMAKE_INSTALL_PREFIX=/home/suixi/ros2_ws/install/color_detect
+Invoked command in '/home/suixi/ros2_ws/build/color_detect' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/suixi/ros2_ws/src/color_detect -DCMAKE_EXPORT_COMPILE_COMMANDS=ON -DCMAKE_INSTALL_PREFIX=/home/suixi/ros2_ws/install/color_detect
+Invoking command in '/home/suixi/ros2_ws/build/color_detect': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/suixi/ros2_ws/build/color_detect -- -j8 -l8
+Invoked command in '/home/suixi/ros2_ws/build/color_detect' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/suixi/ros2_ws/build/color_detect -- -j8 -l8
+Invoking command in '/home/suixi/ros2_ws/build/color_detect': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/suixi/ros2_ws/build/color_detect
+Invoked command in '/home/suixi/ros2_ws/build/color_detect' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/suixi/ros2_ws/build/color_detect

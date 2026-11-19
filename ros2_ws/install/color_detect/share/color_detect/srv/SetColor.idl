@@ -1,0 +1,17 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from color_detect/srv/SetColor.srv
+// generated code does not contain a copyright notice
+
+
+module color_detect {
+  module srv {
+    struct SetColor_Request {
+      string color;
+    };
+    struct SetColor_Response {
+      boolean success;
+
+      string message;
+    };
+  };
+};

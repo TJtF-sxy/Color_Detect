@@ -1,0 +1,13 @@
+{
+    "configurations": [
+        {
+            "name": "ROS",
+            "compileCommands": "${workspaceFolder}/build/color_detect/compile_commands.json",
+            "intelliSenseMode": "gcc-x64",
+            "compilerPath": "/usr/bin/g++",
+            "cStandard": "gnu11",
+            "cppStandard": "c++17"
+        }
+    ],
+    "version": 4
+}

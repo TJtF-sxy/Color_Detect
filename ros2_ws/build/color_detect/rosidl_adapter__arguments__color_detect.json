@@ -1,0 +1,6 @@
+{
+  "package_name": "color_detect",
+  "non_idl_tuples": [
+    "/home/suixi/ros2_ws/src/color_detect:srv/SetColor.srv"
+  ]
+}

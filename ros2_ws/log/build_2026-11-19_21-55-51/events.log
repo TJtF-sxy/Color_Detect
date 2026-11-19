@@ -1,0 +1,750 @@
+[0.000000] (-) TimerEvent: {}
+[0.000614] (color_detect) JobQueued: {'identifier': 'color_detect', 'dependencies': OrderedDict()}
+[0.002700] (color_detect) JobStarted: {'identifier': 'color_detect'}
+[0.039822] (color_detect) JobProgress: {'identifier': 'color_detect', 'progress': 'cmake'}
+[0.043011] (color_detect) Command: {'cmd': ['/usr/bin/cmake', '/home/suixi/ros2_ws/src/color_detect', '-DCMAKE_EXPORT_COMPILE_COMMANDS=ON', '-DCMAKE_INSTALL_PREFIX=/home/suixi/ros2_ws/install/color_detect'], 'cwd': '/home/suixi/ros2_ws/build/color_detect', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'suixi'), ('GIT_ASKPASS', '/home/suixi/.vscode-server/bin/69047191fc427f2f92828279aae1d90d8eeda7ab/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/suixi'), ('TERM_PROGRAM_VERSION', '1.146.0'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-c3359a24-e001-488b-88ec-a58a63b6c139.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/suixi/.vscode-server/bin/69047191fc427f2f92828279aae1d90d8eeda7ab/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/suixi/.vscode-server/bin/69047191fc427f2f92828279aae1d90d8eeda7ab/node'), ('VSCODE_PYTHON_AUTOACTIVATE_GUARD', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'suixi'), ('NAME', 'LAPTOP-CFC30R8T'), ('WSL_INTEROP', '/run/WSL/8592_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/suixi/.vscode-server/bin/69047191fc427f2f92828279aae1d90d8eeda7ab/bin/remote-cli:/home/suixi/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/d/msy32/ucrt64/bin:/mnt/c/Program Files/Common Files/Oracle/Java/javapath:/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files (x86)/Microsoft SQL Server/160/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/160/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/160/DTS/Binn/:/mnt/c/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/:/mnt/d/Microsoft VS Code/bin:/mnt/c/Program Files (x86)/STMicroelectronics/STM32 ST-LINK Utility/ST-LINK Utility:/mnt/d/Cmake/bin:/mnt/d/Windows Kits/10/Windows Performance Toolkit/:/mnt/d/Git/cmd:/mnt/d/Microsoft VS Code/bin/copilot-shim:/mnt/d/opencv_build/install/bin:/mnt/c/Program Files/WSL/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/d/msy32/ucrt64/bin:/mnt/c/Program Files/Common Files/Oracle/Java/javapath:/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files (x86)/Microsoft SQL Server/160/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/160/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/160/DTS/Binn/:/mnt/c/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/:/mnt/d/Microsoft VS Code/bin:/mnt/c/Program Files (x86)/STMicroelectronics/STM32 ST-LINK Utility/ST-LINK Utility:/mnt/d/Cmake/bin:/mnt/d/Windows Kits/10/Windows Performance Toolkit/:/mnt/d/Git/cmd:/mnt/d/Microsoft VS Code/bin/copilot-shim:/mnt/c/Program Files/WSL/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/d/msy32/ucrt64/bin:/mnt/c/Program Files/Common Files/Oracle/Java/javapath:/mnt/c/Program Files (x:/mnt/d/OpenCV/opencv_build/install/bin:/snap/bin:/home/suixi/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand:/home/suixi/.vscode-server/bin/69047191fc427f2f92828279aae1d90d8eeda7ab/bin/copilot-shim'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-4b9b46c505.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('BASH_ENV', '/etc/bash.bashrc'), ('PWD', '/home/suixi/ros2_ws/build/color_detect'), ('COPILOT_DEBUG_NONCE', 'fd13c3fcddb3e297297b4daa06ca5bb4'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('WSLENV', 'VSCODE_WSL_EXT_LOCATION/up:BASH_ENV/u'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.099414] (-) TimerEvent: {}
+[0.201544] (-) TimerEvent: {}
+[0.303531] (-) TimerEvent: {}
+[0.411897] (-) TimerEvent: {}
+[0.511351] (color_detect) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.512115] (-) TimerEvent: {}
+[0.614064] (-) TimerEvent: {}
+[0.715075] (-) TimerEvent: {}
+[0.815801] (-) TimerEvent: {}
+[0.916748] (-) TimerEvent: {}
+[1.017864] (-) TimerEvent: {}
+[1.118700] (-) TimerEvent: {}
+[1.220033] (-) TimerEvent: {}
+[1.320738] (-) TimerEvent: {}
+[1.421291] (-) TimerEvent: {}
+[1.521922] (-) TimerEvent: {}
+[1.622543] (-) TimerEvent: {}
+[1.723203] (-) TimerEvent: {}
+[1.795177] (color_detect) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[1.824887] (-) TimerEvent: {}
+[1.925472] (-) TimerEvent: {}
+[2.027172] (-) TimerEvent: {}
+[2.128918] (-) TimerEvent: {}
+[2.229622] (-) TimerEvent: {}
+[2.330117] (-) TimerEvent: {}
+[2.431012] (-) TimerEvent: {}
+[2.451069] (color_detect) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[2.531328] (-) TimerEvent: {}
+[2.633996] (-) TimerEvent: {}
+[2.734556] (-) TimerEvent: {}
+[2.798599] (color_detect) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[2.807518] (color_detect) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[2.808406] (color_detect) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[2.809905] (color_detect) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[2.815309] (color_detect) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[2.834877] (-) TimerEvent: {}
+[2.935479] (-) TimerEvent: {}
+[3.036139] (-) TimerEvent: {}
+[3.137029] (-) TimerEvent: {}
+[3.166483] (color_detect) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[3.176726] (color_detect) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[3.177368] (color_detect) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[3.178041] (color_detect) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[3.188587] (color_detect) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.15 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[3.241184] (-) TimerEvent: {}
+[3.342774] (-) TimerEvent: {}
+[3.390326] (color_detect) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[3.447182] (-) TimerEvent: {}
+[3.555264] (-) TimerEvent: {}
+[3.556268] (color_detect) StdoutLine: {'line': b'-- Found rclcpp: 16.0.23 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[3.663023] (-) TimerEvent: {}
+[3.769187] (-) TimerEvent: {}
+[3.858784] (color_detect) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.10 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[3.869437] (color_detect) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.10 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[3.869659] (-) TimerEvent: {}
+[3.892583] (color_detect) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.10 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[3.923535] (color_detect) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[3.956364] (color_detect) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[3.970986] (-) TimerEvent: {}
+[4.058177] (color_detect) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.4 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[4.065372] (color_detect) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.11 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[4.071249] (-) TimerEvent: {}
+[4.177168] (-) TimerEvent: {}
+[4.277671] (-) TimerEvent: {}
+[4.378204] (-) TimerEvent: {}
+[4.484466] (-) TimerEvent: {}
+[4.585306] (-) TimerEvent: {}
+[4.687214] (-) TimerEvent: {}
+[4.789313] (-) TimerEvent: {}
+[4.890426] (-) TimerEvent: {}
+[4.991812] (-) TimerEvent: {}
+[5.093106] (-) TimerEvent: {}
+[5.193860] (-) TimerEvent: {}
+[5.294424] (-) TimerEvent: {}
+[5.395158] (-) TimerEvent: {}
+[5.496138] (-) TimerEvent: {}
+[5.602330] (-) TimerEvent: {}
+[5.705611] (-) TimerEvent: {}
+[5.812164] (-) TimerEvent: {}
+[5.916268] (-) TimerEvent: {}
+[6.025005] (-) TimerEvent: {}
+[6.133527] (-) TimerEvent: {}
+[6.237273] (-) TimerEvent: {}
+[6.337817] (-) TimerEvent: {}
+[6.440512] (-) TimerEvent: {}
+[6.543392] (-) TimerEvent: {}
+[6.645387] (-) TimerEvent: {}
+[6.692999] (color_detect) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[6.747918] (-) TimerEvent: {}
+[6.850049] (-) TimerEvent: {}
+[6.950681] (-) TimerEvent: {}
+[7.053365] (-) TimerEvent: {}
+[7.154856] (-) TimerEvent: {}
+[7.257652] (-) TimerEvent: {}
+[7.360519] (-) TimerEvent: {}
+[7.461198] (-) TimerEvent: {}
+[7.564412] (-) TimerEvent: {}
+[7.665168] (-) TimerEvent: {}
+[7.767311] (-) TimerEvent: {}
+[7.870381] (-) TimerEvent: {}
+[7.972368] (-) TimerEvent: {}
+[8.074203] (-) TimerEvent: {}
+[8.177536] (-) TimerEvent: {}
+[8.278798] (-) TimerEvent: {}
+[8.379461] (-) TimerEvent: {}
+[8.481239] (-) TimerEvent: {}
+[8.585851] (-) TimerEvent: {}
+[8.686386] (-) TimerEvent: {}
+[8.789329] (-) TimerEvent: {}
+[8.891529] (-) TimerEvent: {}
+[8.992227] (-) TimerEvent: {}
+[9.093070] (-) TimerEvent: {}
+[9.112156] (color_detect) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[9.193164] (-) TimerEvent: {}
+[9.293642] (-) TimerEvent: {}
+[9.395844] (-) TimerEvent: {}
+[9.498912] (-) TimerEvent: {}
+[9.599568] (-) TimerEvent: {}
+[9.700279] (-) TimerEvent: {}
+[9.802825] (-) TimerEvent: {}
+[9.904701] (-) TimerEvent: {}
+[10.007128] (-) TimerEvent: {}
+[10.109305] (-) TimerEvent: {}
+[10.209790] (-) TimerEvent: {}
+[10.310678] (-) TimerEvent: {}
+[10.411323] (-) TimerEvent: {}
+[10.512050] (-) TimerEvent: {}
+[10.615290] (-) TimerEvent: {}
+[10.718662] (-) TimerEvent: {}
+[10.820370] (-) TimerEvent: {}
+[10.921226] (-) TimerEvent: {}
+[11.026002] (-) TimerEvent: {}
+[11.130242] (-) TimerEvent: {}
+[11.232585] (-) TimerEvent: {}
+[11.333181] (-) TimerEvent: {}
+[11.438678] (-) TimerEvent: {}
+[11.540665] (-) TimerEvent: {}
+[11.641186] (-) TimerEvent: {}
+[11.741709] (-) TimerEvent: {}
+[11.842300] (-) TimerEvent: {}
+[11.942927] (-) TimerEvent: {}
+[12.047090] (-) TimerEvent: {}
+[12.147728] (-) TimerEvent: {}
+[12.248603] (-) TimerEvent: {}
+[12.349388] (-) TimerEvent: {}
+[12.449937] (-) TimerEvent: {}
+[12.550853] (-) TimerEvent: {}
+[12.651838] (-) TimerEvent: {}
+[12.757018] (-) TimerEvent: {}
+[12.864871] (-) TimerEvent: {}
+[12.972977] (-) TimerEvent: {}
+[13.079806] (-) TimerEvent: {}
+[13.188548] (-) TimerEvent: {}
+[13.293703] (-) TimerEvent: {}
+[13.402252] (-) TimerEvent: {}
+[13.510928] (-) TimerEvent: {}
+[13.563697] (color_detect) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[13.589373] (color_detect) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[13.612788] (-) TimerEvent: {}
+[13.716264] (-) TimerEvent: {}
+[13.818666] (-) TimerEvent: {}
+[13.927382] (-) TimerEvent: {}
+[13.935121] (color_detect) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[13.935593] (color_detect) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[14.028782] (-) TimerEvent: {}
+[14.129239] (-) TimerEvent: {}
+[14.229976] (-) TimerEvent: {}
+[14.332497] (-) TimerEvent: {}
+[14.433620] (-) TimerEvent: {}
+[14.534231] (-) TimerEvent: {}
+[14.535269] (color_detect) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[14.536656] (color_detect) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[14.636276] (-) TimerEvent: {}
+[14.664563] (color_detect) StdoutLine: {'line': b'-- Found sensor_msgs: 4.9.2 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[14.736857] (-) TimerEvent: {}
+[14.744034] (color_detect) StdoutLine: {'line': b'-- Found cv_bridge: 3.2.1 (/opt/ros/humble/share/cv_bridge/cmake)\n'}
+[14.775853] (color_detect) StdoutLine: {'line': b'-- Found OpenCV: /usr (found version "4.5.4") \n'}
+[14.778304] (color_detect) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.1 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[14.838420] (-) TimerEvent: {}
+[14.940739] (-) TimerEvent: {}
+[15.046284] (-) TimerEvent: {}
+[15.148918] (-) TimerEvent: {}
+[15.167881] (color_detect) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.1 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[15.249268] (-) TimerEvent: {}
+[15.351190] (-) TimerEvent: {}
+[15.453858] (-) TimerEvent: {}
+[15.554465] (-) TimerEvent: {}
+[15.654800] (color_detect) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[15.655016] (-) TimerEvent: {}
+[15.756256] (-) TimerEvent: {}
+[15.813774] (color_detect) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[15.857686] (-) TimerEvent: {}
+[15.962875] (-) TimerEvent: {}
+[16.042253] (color_detect) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") \n'}
+[16.045202] (color_detect) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[16.064278] (-) TimerEvent: {}
+[16.166404] (-) TimerEvent: {}
+[16.269326] (-) TimerEvent: {}
+[16.374857] (-) TimerEvent: {}
+[16.481572] (-) TimerEvent: {}
+[16.588252] (-) TimerEvent: {}
+[16.689698] (-) TimerEvent: {}
+[16.727804] (color_detect) StdoutLine: {'line': b'-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") \n'}
+[16.728079] (color_detect) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[16.728233] (color_detect) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[16.728370] (color_detect) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so\n'}
+[16.764845] (color_detect) StdoutLine: {'line': b'-- Found PythonExtra: .so  \n'}
+[16.790098] (-) TimerEvent: {}
+[16.892863] (-) TimerEvent: {}
+[16.993501] (-) TimerEvent: {}
+[17.076372] (color_detect) StdoutLine: {'line': b'-- Configuring done\n'}
+[17.093766] (-) TimerEvent: {}
+[17.178699] (color_detect) StdoutLine: {'line': b'-- Generating done\n'}
+[17.193994] (-) TimerEvent: {}
+[17.208686] (color_detect) StdoutLine: {'line': b'-- Build files have been written to: /home/suixi/ros2_ws/build/color_detect\n'}
+[17.232065] (color_detect) CommandEnded: {'returncode': 0}
+[17.233065] (color_detect) JobProgress: {'identifier': 'color_detect', 'progress': 'build'}
+[17.235269] (color_detect) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/suixi/ros2_ws/build/color_detect', '--', '-j8', '-l8'], 'cwd': '/home/suixi/ros2_ws/build/color_detect', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'suixi'), ('GIT_ASKPASS', '/home/suixi/.vscode-server/bin/69047191fc427f2f92828279aae1d90d8eeda7ab/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/suixi'), ('TERM_PROGRAM_VERSION', '1.146.0'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-c3359a24-e001-488b-88ec-a58a63b6c139.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/suixi/.vscode-server/bin/69047191fc427f2f92828279aae1d90d8eeda7ab/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/suixi/.vscode-server/bin/69047191fc427f2f92828279aae1d90d8eeda7ab/node'), ('VSCODE_PYTHON_AUTOACTIVATE_GUARD', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'suixi'), ('NAME', 'LAPTOP-CFC30R8T'), ('WSL_INTEROP', '/run/WSL/8592_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/suixi/.vscode-server/bin/69047191fc427f2f92828279aae1d90d8eeda7ab/bin/remote-cli:/home/suixi/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/d/msy32/ucrt64/bin:/mnt/c/Program Files/Common Files/Oracle/Java/javapath:/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files (x86)/Microsoft SQL Server/160/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/160/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/160/DTS/Binn/:/mnt/c/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/:/mnt/d/Microsoft VS Code/bin:/mnt/c/Program Files (x86)/STMicroelectronics/STM32 ST-LINK Utility/ST-LINK Utility:/mnt/d/Cmake/bin:/mnt/d/Windows Kits/10/Windows Performance Toolkit/:/mnt/d/Git/cmd:/mnt/d/Microsoft VS Code/bin/copilot-shim:/mnt/d/opencv_build/install/bin:/mnt/c/Program Files/WSL/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/d/msy32/ucrt64/bin:/mnt/c/Program Files/Common Files/Oracle/Java/javapath:/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files (x86)/Microsoft SQL Server/160/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/160/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/160/DTS/Binn/:/mnt/c/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/:/mnt/d/Microsoft VS Code/bin:/mnt/c/Program Files (x86)/STMicroelectronics/STM32 ST-LINK Utility/ST-LINK Utility:/mnt/d/Cmake/bin:/mnt/d/Windows Kits/10/Windows Performance Toolkit/:/mnt/d/Git/cmd:/mnt/d/Microsoft VS Code/bin/copilot-shim:/mnt/c/Program Files/WSL/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/d/msy32/ucrt64/bin:/mnt/c/Program Files/Common Files/Oracle/Java/javapath:/mnt/c/Program Files (x:/mnt/d/OpenCV/opencv_build/install/bin:/snap/bin:/home/suixi/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand:/home/suixi/.vscode-server/bin/69047191fc427f2f92828279aae1d90d8eeda7ab/bin/copilot-shim'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-4b9b46c505.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('BASH_ENV', '/etc/bash.bashrc'), ('PWD', '/home/suixi/ros2_ws/build/color_detect'), ('COPILOT_DEBUG_NONCE', 'fd13c3fcddb3e297297b4daa06ca5bb4'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('WSLENV', 'VSCODE_WSL_EXT_LOCATION/up:BASH_ENV/u'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[17.289642] (color_detect) StdoutLine: {'line': b'[  2%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[17.294321] (-) TimerEvent: {}
+[17.315766] (color_detect) StdoutLine: {'line': b'[  5%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[17.316794] (color_detect) StdoutLine: {'line': b'[  8%] \x1b[34m\x1b[1mGenerating Rust code for ROS interfaces\x1b[0m\n'}
+[17.321585] (color_detect) StdoutLine: {'line': b'[ 11%] \x1b[32mBuilding CXX object CMakeFiles/image_publisher.dir/src/image_publisher.cpp.o\x1b[0m\n'}
+[17.340971] (color_detect) StdoutLine: {'line': b'[ 11%] Built target ament_cmake_python_copy_color_detect\n'}
+[17.395402] (-) TimerEvent: {}
+[17.496332] (-) TimerEvent: {}
+[17.597333] (-) TimerEvent: {}
+[17.699999] (-) TimerEvent: {}
+[17.801891] (-) TimerEvent: {}
+[17.904128] (-) TimerEvent: {}
+[18.005369] (-) TimerEvent: {}
+[18.107683] (-) TimerEvent: {}
+[18.208693] (-) TimerEvent: {}
+[18.255937] (color_detect) StdoutLine: {'line': b'[ 11%] Built target color_detect__rs\n'}
+[18.309199] (-) TimerEvent: {}
+[18.414962] (color_detect) StdoutLine: {'line': b'running egg_info\n'}
+[18.415537] (-) TimerEvent: {}
+[18.415982] (color_detect) StdoutLine: {'line': b'creating color_detect.egg-info\n'}
+[18.416365] (color_detect) StdoutLine: {'line': b'writing color_detect.egg-info/PKG-INFO\n'}
+[18.416573] (color_detect) StdoutLine: {'line': b'writing dependency_links to color_detect.egg-info/dependency_links.txt\n'}
+[18.416749] (color_detect) StdoutLine: {'line': b'writing top-level names to color_detect.egg-info/top_level.txt\n'}
+[18.416997] (color_detect) StdoutLine: {'line': b"writing manifest file 'color_detect.egg-info/SOURCES.txt'\n"}
+[18.426405] (color_detect) StdoutLine: {'line': b"reading manifest file 'color_detect.egg-info/SOURCES.txt'\n"}
+[18.429268] (color_detect) StdoutLine: {'line': b"writing manifest file 'color_detect.egg-info/SOURCES.txt'\n"}
+[18.449870] (color_detect) StdoutLine: {'line': b'[ 11%] Built target color_detect__cpp\n'}
+[18.481279] (color_detect) StdoutLine: {'line': b'[ 13%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[18.493803] (color_detect) StdoutLine: {'line': b'[ 16%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[18.503676] (color_detect) StdoutLine: {'line': b'[ 19%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[18.516628] (-) TimerEvent: {}
+[18.538117] (color_detect) StdoutLine: {'line': b'[ 22%] \x1b[32mBuilding C object CMakeFiles/color_detect__rosidl_generator_c.dir/rosidl_generator_c/color_detect/srv/detail/set_color__functions.c.o\x1b[0m\n'}
+[18.585869] (color_detect) StdoutLine: {'line': b'[ 22%] Built target ament_cmake_python_build_color_detect_egg\n'}
+[18.617350] (-) TimerEvent: {}
+[18.722620] (-) TimerEvent: {}
+[18.805142] (color_detect) StdoutLine: {'line': b'[ 25%] \x1b[32m\x1b[1mLinking C shared library libcolor_detect__rosidl_generator_c.so\x1b[0m\n'}
+[18.823093] (-) TimerEvent: {}
+[18.924289] (-) TimerEvent: {}
+[19.031425] (-) TimerEvent: {}
+[19.135525] (-) TimerEvent: {}
+[19.248661] (-) TimerEvent: {}
+[19.349672] (-) TimerEvent: {}
+[19.450768] (-) TimerEvent: {}
+[19.552221] (-) TimerEvent: {}
+[19.655404] (-) TimerEvent: {}
+[19.721040] (color_detect) StdoutLine: {'line': b'[ 27%] \x1b[32mBuilding CXX object CMakeFiles/color_detect__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/color_detect/srv/set_color__type_support.cpp.o\x1b[0m\n'}
+[19.755969] (-) TimerEvent: {}
+[19.857447] (-) TimerEvent: {}
+[19.889800] (color_detect) StdoutLine: {'line': b'[ 30%] \x1b[32mBuilding CXX object CMakeFiles/color_detect__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/color_detect/srv/detail/set_color__type_support.cpp.o\x1b[0m\n'}
+[19.954782] (color_detect) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/color_detect__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/color_detect/srv/detail/dds_fastrtps/set_color__type_support.cpp.o\x1b[0m\n'}
+[19.957835] (-) TimerEvent: {}
+[20.059247] (-) TimerEvent: {}
+[20.098470] (color_detect) StdoutLine: {'line': b'[ 33%] Built target color_detect__rosidl_generator_c\n'}
+[20.133567] (color_detect) StdoutLine: {'line': b'[ 36%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[20.142007] (color_detect) StdoutLine: {'line': b'[ 38%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[20.145446] (color_detect) StdoutLine: {'line': b'[ 41%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[20.161215] (-) TimerEvent: {}
+[20.262740] (-) TimerEvent: {}
+[20.364999] (-) TimerEvent: {}
+[20.465806] (-) TimerEvent: {}
+[20.570929] (-) TimerEvent: {}
+[20.673654] (-) TimerEvent: {}
+[20.779543] (-) TimerEvent: {}
+[20.890754] (-) TimerEvent: {}
+[20.991907] (-) TimerEvent: {}
+[21.066520] (color_detect) StdoutLine: {'line': b'[ 44%] \x1b[32m\x1b[1mLinking CXX shared library libcolor_detect__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[21.093880] (-) TimerEvent: {}
+[21.197262] (-) TimerEvent: {}
+[21.298153] (-) TimerEvent: {}
+[21.389784] (color_detect) StderrLine: {'line': b"gmake[2]: Warning: File 'libcolor_detect__rosidl_generator_c.so' has modification time 2.3 s in the future\n"}
+[21.401262] (-) TimerEvent: {}
+[21.450061] (color_detect) StdoutLine: {'line': b'[ 47%] \x1b[32mBuilding CXX object CMakeFiles/color_detect__rosidl_typesupport_c.dir/rosidl_typesupport_c/color_detect/srv/set_color__type_support.cpp.o\x1b[0m\n'}
+[21.501771] (-) TimerEvent: {}
+[21.602880] (color_detect) StdoutLine: {'line': b'[ 50%] \x1b[32m\x1b[1mLinking CXX shared library libcolor_detect__rosidl_typesupport_c.so\x1b[0m\n'}
+[21.603605] (-) TimerEvent: {}
+[21.613086] (color_detect) StderrLine: {'line': b"gmake[2]: Warning: File 'libcolor_detect__rosidl_generator_c.so' has modification time 2.1 s in the future\n"}
+[21.657110] (color_detect) StdoutLine: {'line': b'[ 52%] \x1b[32mBuilding C object CMakeFiles/color_detect__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/color_detect/srv/detail/set_color__type_support.c.o\x1b[0m\n'}
+[21.686951] (color_detect) StderrLine: {'line': b"gmake[2]: Warning: File 'libcolor_detect__rosidl_generator_c.so' has modification time 2 s in the future\n"}
+[21.704113] (-) TimerEvent: {}
+[21.725349] (color_detect) StdoutLine: {'line': b'[ 55%] \x1b[32mBuilding CXX object CMakeFiles/color_detect__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/color_detect/srv/detail/set_color__type_support_c.cpp.o\x1b[0m\n'}
+[21.802883] (color_detect) StdoutLine: {'line': b'[ 58%] \x1b[32m\x1b[1mLinking C shared library libcolor_detect__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[21.804332] (-) TimerEvent: {}
+[21.905451] (-) TimerEvent: {}
+[22.006656] (-) TimerEvent: {}
+[22.107775] (-) TimerEvent: {}
+[22.173280] (color_detect) StdoutLine: {'line': b'[ 61%] \x1b[32m\x1b[1mLinking CXX shared library libcolor_detect__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[22.208713] (-) TimerEvent: {}
+[22.217711] (color_detect) StdoutLine: {'line': b'[ 63%] \x1b[32m\x1b[1mLinking CXX shared library libcolor_detect__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[22.309032] (-) TimerEvent: {}
+[22.410278] (-) TimerEvent: {}
+[22.434810] (color_detect) StdoutLine: {'line': b'[ 63%] Built target color_detect__rosidl_typesupport_cpp\n'}
+[22.510627] (-) TimerEvent: {}
+[22.526522] (color_detect) StdoutLine: {'line': b'[ 66%] \x1b[32mBuilding CXX object CMakeFiles/color_detector.dir/src/color_detector.cpp.o\x1b[0m\n'}
+[22.611095] (-) TimerEvent: {}
+[22.712616] (-) TimerEvent: {}
+[22.815758] (-) TimerEvent: {}
+[22.920731] (-) TimerEvent: {}
+[22.925407] (color_detect) StderrLine: {'line': b'gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.\n'}
+[22.969661] (color_detect) StdoutLine: {'line': b'[ 66%] Built target color_detect__rosidl_typesupport_c\n'}
+[23.022292] (-) TimerEvent: {}
+[23.041880] (color_detect) StderrLine: {'line': b'gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.\n'}
+[23.087937] (color_detect) StdoutLine: {'line': b'[ 66%] Built target color_detect__rosidl_typesupport_introspection_c\n'}
+[23.122615] (-) TimerEvent: {}
+[23.223834] (-) TimerEvent: {}
+[23.325471] (-) TimerEvent: {}
+[23.443055] (-) TimerEvent: {}
+[23.544391] (-) TimerEvent: {}
+[23.546510] (color_detect) StdoutLine: {'line': b'[ 66%] Built target color_detect__rosidl_typesupport_introspection_cpp\n'}
+[23.589536] (color_detect) StdoutLine: {'line': b'[ 69%] \x1b[32m\x1b[1mLinking CXX shared library libcolor_detect__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[23.593284] (color_detect) StdoutLine: {'line': b'[ 69%] Built target color_detect__rosidl_typesupport_fastrtps_cpp\n'}
+[23.644996] (-) TimerEvent: {}
+[23.746394] (-) TimerEvent: {}
+[23.847493] (-) TimerEvent: {}
+[23.949209] (-) TimerEvent: {}
+[24.051417] (-) TimerEvent: {}
+[24.154077] (-) TimerEvent: {}
+[24.255325] (-) TimerEvent: {}
+[24.358101] (-) TimerEvent: {}
+[24.462746] (-) TimerEvent: {}
+[24.565432] (-) TimerEvent: {}
+[24.666654] (-) TimerEvent: {}
+[24.764677] (color_detect) StderrLine: {'line': b'gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.\n'}
+[24.766933] (-) TimerEvent: {}
+[24.796592] (color_detect) StdoutLine: {'line': b'[ 69%] Built target color_detect__rosidl_typesupport_fastrtps_c\n'}
+[24.844213] (color_detect) StdoutLine: {'line': b'[ 69%] Built target color_detect\n'}
+[24.867300] (-) TimerEvent: {}
+[24.879615] (color_detect) StdoutLine: {'line': b'[ 72%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[24.967717] (-) TimerEvent: {}
+[25.069644] (-) TimerEvent: {}
+[25.170384] (-) TimerEvent: {}
+[25.271212] (-) TimerEvent: {}
+[25.373869] (-) TimerEvent: {}
+[25.477108] (-) TimerEvent: {}
+[25.578131] (-) TimerEvent: {}
+[25.681170] (-) TimerEvent: {}
+[25.783711] (-) TimerEvent: {}
+[25.885429] (-) TimerEvent: {}
+[25.953622] (color_detect) StdoutLine: {'line': b'[ 72%] Built target color_detect__py\n'}
+[25.985682] (-) TimerEvent: {}
+[26.003056] (color_detect) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding C object CMakeFiles/color_detect__rosidl_generator_py.dir/rosidl_generator_py/color_detect/srv/_set_color_s.c.o\x1b[0m\n'}
+[26.085993] (-) TimerEvent: {}
+[26.187254] (-) TimerEvent: {}
+[26.288391] (-) TimerEvent: {}
+[26.389195] (-) TimerEvent: {}
+[26.408531] (color_detect) StdoutLine: {'line': b'[ 77%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/color_detect/libcolor_detect__rosidl_generator_py.so\x1b[0m\n'}
+[26.489566] (-) TimerEvent: {}
+[26.590640] (-) TimerEvent: {}
+[26.691497] (-) TimerEvent: {}
+[26.792573] (-) TimerEvent: {}
+[26.894032] (-) TimerEvent: {}
+[26.995076] (-) TimerEvent: {}
+[27.096383] (-) TimerEvent: {}
+[27.184151] (color_detect) StdoutLine: {'line': b'[ 77%] Built target color_detect__rosidl_generator_py\n'}
+[27.196968] (-) TimerEvent: {}
+[27.247248] (color_detect) StdoutLine: {'line': b'[ 80%] \x1b[32mBuilding C object CMakeFiles/color_detect__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/color_detect/_color_detect_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[27.249367] (color_detect) StdoutLine: {'line': b'[ 83%] \x1b[32mBuilding C object CMakeFiles/color_detect__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/color_detect/_color_detect_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[27.249730] (color_detect) StdoutLine: {'line': b'[ 86%] \x1b[32mBuilding C object CMakeFiles/color_detect__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/color_detect/_color_detect_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[27.297610] (-) TimerEvent: {}
+[27.400353] (-) TimerEvent: {}
+[27.501650] (-) TimerEvent: {}
+[27.602615] (-) TimerEvent: {}
+[27.612034] (color_detect) StdoutLine: {'line': b'[ 88%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/color_detect/color_detect_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[27.627717] (color_detect) StdoutLine: {'line': b'[ 91%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/color_detect/color_detect_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[27.641951] (color_detect) StdoutLine: {'line': b'[ 94%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/color_detect/color_detect_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[27.703076] (-) TimerEvent: {}
+[27.804205] (-) TimerEvent: {}
+[27.905202] (-) TimerEvent: {}
+[28.006012] (-) TimerEvent: {}
+[28.109242] (-) TimerEvent: {}
+[28.185973] (color_detect) StdoutLine: {'line': b'[ 94%] Built target color_detect__rosidl_typesupport_c__pyext\n'}
+[28.187791] (color_detect) StdoutLine: {'line': b'[ 94%] Built target color_detect__rosidl_typesupport_introspection_c__pyext\n'}
+[28.193760] (color_detect) StdoutLine: {'line': b'[ 94%] Built target color_detect__rosidl_typesupport_fastrtps_c__pyext\n'}
+[28.209392] (-) TimerEvent: {}
+[28.310173] (-) TimerEvent: {}
+[28.412459] (-) TimerEvent: {}
+[28.514264] (-) TimerEvent: {}
+[28.615504] (-) TimerEvent: {}
+[28.716861] (-) TimerEvent: {}
+[28.817890] (-) TimerEvent: {}
+[28.919128] (-) TimerEvent: {}
+[29.020210] (-) TimerEvent: {}
+[29.122061] (-) TimerEvent: {}
+[29.224045] (-) TimerEvent: {}
+[29.327906] (-) TimerEvent: {}
+[29.429191] (-) TimerEvent: {}
+[29.530063] (-) TimerEvent: {}
+[29.630702] (-) TimerEvent: {}
+[29.731491] (-) TimerEvent: {}
+[29.832486] (-) TimerEvent: {}
+[29.937324] (-) TimerEvent: {}
+[30.038139] (-) TimerEvent: {}
+[30.141030] (-) TimerEvent: {}
+[30.241843] (-) TimerEvent: {}
+[30.344159] (-) TimerEvent: {}
+[30.445118] (-) TimerEvent: {}
+[30.546213] (-) TimerEvent: {}
+[30.647717] (-) TimerEvent: {}
+[30.748980] (-) TimerEvent: {}
+[30.850029] (-) TimerEvent: {}
+[30.950680] (-) TimerEvent: {}
+[31.051678] (-) TimerEvent: {}
+[31.158314] (-) TimerEvent: {}
+[31.261474] (-) TimerEvent: {}
+[31.369523] (-) TimerEvent: {}
+[31.478209] (-) TimerEvent: {}
+[31.578813] (-) TimerEvent: {}
+[31.679637] (-) TimerEvent: {}
+[31.780490] (-) TimerEvent: {}
+[31.881397] (-) TimerEvent: {}
+[31.982030] (-) TimerEvent: {}
+[32.082961] (-) TimerEvent: {}
+[32.184772] (-) TimerEvent: {}
+[32.286019] (-) TimerEvent: {}
+[32.386816] (-) TimerEvent: {}
+[32.490127] (-) TimerEvent: {}
+[32.593165] (-) TimerEvent: {}
+[32.696189] (-) TimerEvent: {}
+[32.799140] (-) TimerEvent: {}
+[32.901582] (-) TimerEvent: {}
+[33.004766] (-) TimerEvent: {}
+[33.105326] (-) TimerEvent: {}
+[33.206211] (-) TimerEvent: {}
+[33.309307] (-) TimerEvent: {}
+[33.410150] (-) TimerEvent: {}
+[33.513257] (-) TimerEvent: {}
+[33.616279] (-) TimerEvent: {}
+[33.717825] (-) TimerEvent: {}
+[33.820819] (-) TimerEvent: {}
+[33.922593] (-) TimerEvent: {}
+[34.024369] (-) TimerEvent: {}
+[34.125656] (-) TimerEvent: {}
+[34.229015] (-) TimerEvent: {}
+[34.330827] (-) TimerEvent: {}
+[34.433012] (-) TimerEvent: {}
+[34.535843] (-) TimerEvent: {}
+[34.637608] (-) TimerEvent: {}
+[34.739248] (-) TimerEvent: {}
+[34.842261] (-) TimerEvent: {}
+[34.944048] (-) TimerEvent: {}
+[35.045186] (-) TimerEvent: {}
+[35.147187] (-) TimerEvent: {}
+[35.248880] (-) TimerEvent: {}
+[35.349402] (-) TimerEvent: {}
+[35.450197] (-) TimerEvent: {}
+[35.552068] (-) TimerEvent: {}
+[35.655345] (-) TimerEvent: {}
+[35.757245] (-) TimerEvent: {}
+[35.859305] (-) TimerEvent: {}
+[35.961739] (-) TimerEvent: {}
+[36.063710] (-) TimerEvent: {}
+[36.166100] (-) TimerEvent: {}
+[36.216032] (color_detect) StdoutLine: {'line': b'[ 97%] \x1b[32m\x1b[1mLinking CXX executable image_publisher\x1b[0m\n'}
+[36.268126] (-) TimerEvent: {}
+[36.370526] (-) TimerEvent: {}
+[36.471300] (-) TimerEvent: {}
+[36.572072] (-) TimerEvent: {}
+[36.673069] (-) TimerEvent: {}
+[36.774920] (-) TimerEvent: {}
+[36.876082] (-) TimerEvent: {}
+[36.977397] (-) TimerEvent: {}
+[37.078760] (-) TimerEvent: {}
+[37.179707] (-) TimerEvent: {}
+[37.281175] (-) TimerEvent: {}
+[37.381938] (-) TimerEvent: {}
+[37.482796] (-) TimerEvent: {}
+[37.583663] (-) TimerEvent: {}
+[37.690312] (-) TimerEvent: {}
+[37.791886] (-) TimerEvent: {}
+[37.893400] (-) TimerEvent: {}
+[37.994306] (-) TimerEvent: {}
+[38.099540] (-) TimerEvent: {}
+[38.200472] (-) TimerEvent: {}
+[38.309535] (-) TimerEvent: {}
+[38.418575] (-) TimerEvent: {}
+[38.527681] (-) TimerEvent: {}
+[38.543463] (color_detect) StdoutLine: {'line': b'[ 97%] Built target image_publisher\n'}
+[38.632122] (-) TimerEvent: {}
+[38.741257] (-) TimerEvent: {}
+[38.850139] (-) TimerEvent: {}
+[38.958768] (-) TimerEvent: {}
+[39.067581] (-) TimerEvent: {}
+[39.176598] (-) TimerEvent: {}
+[39.285942] (-) TimerEvent: {}
+[39.394594] (-) TimerEvent: {}
+[39.503293] (-) TimerEvent: {}
+[39.610379] (-) TimerEvent: {}
+[39.719143] (-) TimerEvent: {}
+[39.827839] (-) TimerEvent: {}
+[39.928637] (-) TimerEvent: {}
+[40.031264] (-) TimerEvent: {}
+[40.133964] (-) TimerEvent: {}
+[40.236700] (-) TimerEvent: {}
+[40.339771] (-) TimerEvent: {}
+[40.442904] (-) TimerEvent: {}
+[40.544847] (-) TimerEvent: {}
+[40.646407] (-) TimerEvent: {}
+[40.749415] (-) TimerEvent: {}
+[40.852744] (-) TimerEvent: {}
+[40.953235] (-) TimerEvent: {}
+[41.055570] (-) TimerEvent: {}
+[41.162143] (-) TimerEvent: {}
+[41.266123] (-) TimerEvent: {}
+[41.372820] (-) TimerEvent: {}
+[41.479730] (-) TimerEvent: {}
+[41.585233] (-) TimerEvent: {}
+[41.692455] (-) TimerEvent: {}
+[41.799372] (-) TimerEvent: {}
+[41.900180] (-) TimerEvent: {}
+[42.001144] (-) TimerEvent: {}
+[42.104098] (-) TimerEvent: {}
+[42.206011] (-) TimerEvent: {}
+[42.306680] (-) TimerEvent: {}
+[42.409794] (-) TimerEvent: {}
+[42.512147] (-) TimerEvent: {}
+[42.615450] (-) TimerEvent: {}
+[42.717005] (-) TimerEvent: {}
+[42.818534] (-) TimerEvent: {}
+[42.920659] (-) TimerEvent: {}
+[43.021124] (-) TimerEvent: {}
+[43.123578] (-) TimerEvent: {}
+[43.226171] (-) TimerEvent: {}
+[43.326829] (-) TimerEvent: {}
+[43.429175] (-) TimerEvent: {}
+[43.531802] (-) TimerEvent: {}
+[43.634330] (-) TimerEvent: {}
+[43.737426] (-) TimerEvent: {}
+[43.840414] (-) TimerEvent: {}
+[43.943268] (-) TimerEvent: {}
+[44.044178] (-) TimerEvent: {}
+[44.145196] (-) TimerEvent: {}
+[44.248116] (-) TimerEvent: {}
+[44.350332] (-) TimerEvent: {}
+[44.452999] (-) TimerEvent: {}
+[44.555013] (-) TimerEvent: {}
+[44.658305] (-) TimerEvent: {}
+[44.761426] (-) TimerEvent: {}
+[44.864313] (-) TimerEvent: {}
+[44.966302] (-) TimerEvent: {}
+[45.068433] (-) TimerEvent: {}
+[45.169280] (-) TimerEvent: {}
+[45.273008] (-) TimerEvent: {}
+[45.368026] (color_detect) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable color_detector\x1b[0m\n'}
+[45.373806] (-) TimerEvent: {}
+[45.474406] (-) TimerEvent: {}
+[45.575231] (-) TimerEvent: {}
+[45.677519] (-) TimerEvent: {}
+[45.779940] (-) TimerEvent: {}
+[45.880808] (-) TimerEvent: {}
+[45.982193] (-) TimerEvent: {}
+[46.083281] (-) TimerEvent: {}
+[46.184074] (-) TimerEvent: {}
+[46.285144] (-) TimerEvent: {}
+[46.387105] (-) TimerEvent: {}
+[46.489446] (-) TimerEvent: {}
+[46.590745] (-) TimerEvent: {}
+[46.692181] (-) TimerEvent: {}
+[46.794232] (-) TimerEvent: {}
+[46.896695] (-) TimerEvent: {}
+[46.999022] (-) TimerEvent: {}
+[47.099983] (-) TimerEvent: {}
+[47.201941] (-) TimerEvent: {}
+[47.303459] (-) TimerEvent: {}
+[47.406239] (-) TimerEvent: {}
+[47.509744] (-) TimerEvent: {}
+[47.612086] (-) TimerEvent: {}
+[47.674706] (color_detect) StdoutLine: {'line': b'[100%] Built target color_detector\n'}
+[47.694223] (color_detect) CommandEnded: {'returncode': 0}
+[47.696872] (color_detect) JobProgress: {'identifier': 'color_detect', 'progress': 'install'}
+[47.712841] (color_detect) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/suixi/ros2_ws/build/color_detect'], 'cwd': '/home/suixi/ros2_ws/build/color_detect', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'suixi'), ('GIT_ASKPASS', '/home/suixi/.vscode-server/bin/69047191fc427f2f92828279aae1d90d8eeda7ab/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/suixi'), ('TERM_PROGRAM_VERSION', '1.146.0'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-c3359a24-e001-488b-88ec-a58a63b6c139.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/suixi/.vscode-server/bin/69047191fc427f2f92828279aae1d90d8eeda7ab/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/suixi/.vscode-server/bin/69047191fc427f2f92828279aae1d90d8eeda7ab/node'), ('VSCODE_PYTHON_AUTOACTIVATE_GUARD', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'suixi'), ('NAME', 'LAPTOP-CFC30R8T'), ('WSL_INTEROP', '/run/WSL/8592_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/suixi/.vscode-server/bin/69047191fc427f2f92828279aae1d90d8eeda7ab/bin/remote-cli:/home/suixi/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/d/msy32/ucrt64/bin:/mnt/c/Program Files/Common Files/Oracle/Java/javapath:/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files (x86)/Microsoft SQL Server/160/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/160/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/160/DTS/Binn/:/mnt/c/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/:/mnt/d/Microsoft VS Code/bin:/mnt/c/Program Files (x86)/STMicroelectronics/STM32 ST-LINK Utility/ST-LINK Utility:/mnt/d/Cmake/bin:/mnt/d/Windows Kits/10/Windows Performance Toolkit/:/mnt/d/Git/cmd:/mnt/d/Microsoft VS Code/bin/copilot-shim:/mnt/d/opencv_build/install/bin:/mnt/c/Program Files/WSL/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/d/msy32/ucrt64/bin:/mnt/c/Program Files/Common Files/Oracle/Java/javapath:/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files (x86)/Microsoft SQL Server/160/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/160/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/160/DTS/Binn/:/mnt/c/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/:/mnt/d/Microsoft VS Code/bin:/mnt/c/Program Files (x86)/STMicroelectronics/STM32 ST-LINK Utility/ST-LINK Utility:/mnt/d/Cmake/bin:/mnt/d/Windows Kits/10/Windows Performance Toolkit/:/mnt/d/Git/cmd:/mnt/d/Microsoft VS Code/bin/copilot-shim:/mnt/c/Program Files/WSL/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/d/msy32/ucrt64/bin:/mnt/c/Program Files/Common Files/Oracle/Java/javapath:/mnt/c/Program Files (x:/mnt/d/OpenCV/opencv_build/install/bin:/snap/bin:/home/suixi/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand:/home/suixi/.vscode-server/bin/69047191fc427f2f92828279aae1d90d8eeda7ab/bin/copilot-shim'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-4b9b46c505.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('BASH_ENV', '/etc/bash.bashrc'), ('PWD', '/home/suixi/ros2_ws/build/color_detect'), ('COPILOT_DEBUG_NONCE', 'fd13c3fcddb3e297297b4daa06ca5bb4'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('WSLENV', 'VSCODE_WSL_EXT_LOCATION/up:BASH_ENV/u'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[47.716024] (-) TimerEvent: {}
+[47.726540] (color_detect) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[47.730560] (color_detect) StdoutLine: {'line': b'-- Installing: /home/suixi/ros2_ws/install/color_detect/share/ament_index/resource_index/rosidl_interfaces/color_detect\n'}
+[47.731848] (color_detect) StdoutLine: {'line': b'-- Installing: /home/suixi/ros2_ws/install/color_detect/include/color_detect/color_detect\n'}
+[47.734179] (color_detect) StdoutLine: {'line': b'-- Installing: /home/suixi/ros2_ws/install/color_detect/include/color_detect/color_detect/msg\n'}
+[47.737409] (color_detect) StdoutLine: {'line': b'-- Installing: /home/suixi/ros2_ws/install/color_detect/include/color_detect/color_detect/msg/rosidl_generator_c__visibility_control.h\n'}
+[47.739403] (color_detect) StdoutLine: {'line': b'-- Installing: /home/suixi/ros2_ws/install/color_detect/include/color_detect/color_detect/srv\n'}
+[47.740972] (color_detect) StdoutLine: {'line': b'-- Installing: /home/suixi/ros2_ws/install/color_detect/include/color_detect/color_detect/srv/detail\n'}
+[47.741962] (color_detect) StdoutLine: {'line': b'-- Installing: /home/suixi/ros2_ws/install/color_detect/include/color_detect/color_detect/srv/detail/set_color__functions.h\n'}
+[47.742790] (color_detect) StdoutLine: {'line': b'-- Installing: /home/suixi/ros2_ws/install/color_detect/include/color_detect/color_detect/srv/detail/set_color__functions.c\n'}
+[47.743233] (color_detect) StdoutLine: {'line': b'-- Installing: /home/suixi/ros2_ws/install/color_detect/include/color_detect/color_detect/srv/detail/set_color__struct.h\n'}
+[47.744221] (color_detect) StdoutLine: {'line': b'-- Installing: /home/suixi/ros2_ws/install/color_detect/include/color_detect/color_detect/srv/detail/set_color__type_support.h\n'}
+[47.744493] (color_detect) StdoutLine: {'line': b'-- Installing: /home/suixi/ros2_ws/install/color_detect/include/color_detect/color_detect/srv/set_color.h\n'}
+[47.745582] (color_detect) StdoutLine: {'line': b'-- Installing: /home/suixi/ros2_ws/install/color_detect/share/color_detect/environment/library_path.sh\n'}
+[47.746177] (color_detect) StdoutLine: {'line': b'-- Installing: /home/suixi/ros2_ws/install/color_detect/share/color_detect/environment/library_path.dsv\n'}
+[47.746791] (color_detect) StdoutLine: {'line': b'-- Installing: /home/suixi/ros2_ws/install/color_detect/lib/libcolor_detect__rosidl_generator_c.so\n'}
+[47.747491] (color_detect) StdoutLine: {'line': b'-- Set runtime path of "/home/suixi/ros2_ws/install/color_detect/lib/libcolor_detect__rosidl_generator_c.so" to ""\n'}
+[47.747844] (color_detect) StdoutLine: {'line': b'-- Up-to-date: /home/suixi/ros2_ws/install/color_detect/include/color_detect/color_detect\n'}
+[47.748220] (color_detect) StdoutLine: {'line': b'-- Up-to-date: /home/suixi/ros2_ws/install/color_detect/include/color_detect/color_detect/msg\n'}
+[47.748688] (color_detect) StdoutLine: {'line': b'-- Installing: /home/suixi/ros2_ws/install/color_detect/include/color_detect/color_detect/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[47.749276] (color_detect) StdoutLine: {'line': b'-- Up-to-date: /home/suixi/ros2_ws/install/color_detect/include/color_detect/color_detect/srv\n'}
+[47.749794] (color_detect) StdoutLine: {'line': b'-- Up-to-date: /home/suixi/ros2_ws/install/color_detect/include/color_detect/color_detect/srv/detail\n'}
+[47.749996] (color_detect) StdoutLine: {'line': b'-- Installing: /home/suixi/ros2_ws/install/color_detect/include/color_detect/color_detect/srv/detail/set_color__rosidl_typesupport_fastrtps_c.h\n'}
+[47.750631] (color_detect) StdoutLine: {'line': b'-- Installing: /home/suixi/ros2_ws/install/color_detect/lib/libcolor_detect__rosidl_typesupport_fastrtps_c.so\n'}
+[47.750978] (color_detect) StdoutLine: {'line': b'-- Set runtime path of "/home/suixi/ros2_ws/install/color_detect/lib/libcolor_detect__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[47.751384] (color_detect) StdoutLine: {'line': b'-- Up-to-date: /home/suixi/ros2_ws/install/color_detect/include/color_detect/color_detect\n'}
+[47.752329] (color_detect) StdoutLine: {'line': b'-- Up-to-date: /home/suixi/ros2_ws/install/color_detect/include/color_detect/color_detect/msg\n'}
+[47.752626] (color_detect) StdoutLine: {'line': b'-- Installing: /home/suixi/ros2_ws/install/color_detect/include/color_detect/color_detect/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[47.752810] (color_detect) StdoutLine: {'line': b'-- Up-to-date: /home/suixi/ros2_ws/install/color_detect/include/color_detect/color_detect/srv\n'}
+[47.752977] (color_detect) StdoutLine: {'line': b'-- Up-to-date: /home/suixi/ros2_ws/install/color_detect/include/color_detect/color_detect/srv/detail\n'}
+[47.753507] (color_detect) StdoutLine: {'line': b'-- Installing: /home/suixi/ros2_ws/install/color_detect/include/color_detect/color_detect/srv/detail/set_color__struct.hpp\n'}
+[47.753712] (color_detect) StdoutLine: {'line': b'-- Installing: /home/suixi/ros2_ws/install/color_detect/include/color_detect/color_detect/srv/detail/set_color__type_support.hpp\n'}
+[47.754069] (color_detect) StdoutLine: {'line': b'-- Installing: /home/suixi/ros2_ws/install/color_detect/include/color_detect/color_detect/srv/detail/set_color__builder.hpp\n'}
+[47.754379] (color_detect) StdoutLine: {'line': b'-- Installing: /home/suixi/ros2_ws/install/color_detect/include/color_detect/color_detect/srv/detail/set_color__traits.hpp\n'}
+[47.754770] (color_detect) StdoutLine: {'line': b'-- Installing: /home/suixi/ros2_ws/install/color_detect/include/color_detect/color_detect/srv/set_color.hpp\n'}
+[47.755418] (color_detect) StdoutLine: {'line': b'-- Up-to-date: /home/suixi/ros2_ws/install/color_detect/include/color_detect/color_detect\n'}
+[47.756223] (color_detect) StdoutLine: {'line': b'-- Up-to-date: /home/suixi/ros2_ws/install/color_detect/include/color_detect/color_detect/msg\n'}
+[47.756867] (color_detect) StdoutLine: {'line': b'-- Installing: /home/suixi/ros2_ws/install/color_detect/include/color_detect/color_detect/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[47.758400] (color_detect) StdoutLine: {'line': b'-- Up-to-date: /home/suixi/ros2_ws/install/color_detect/include/color_detect/color_detect/srv\n'}
+[47.758888] (color_detect) StdoutLine: {'line': b'-- Up-to-date: /home/suixi/ros2_ws/install/color_detect/include/color_detect/color_detect/srv/detail\n'}
+[47.759813] (color_detect) StdoutLine: {'line': b'-- Installing: /home/suixi/ros2_ws/install/color_detect/include/color_detect/color_detect/srv/detail/dds_fastrtps\n'}
+[47.760147] (color_detect) StdoutLine: {'line': b'-- Installing: /home/suixi/ros2_ws/install/color_detect/include/color_detect/color_detect/srv/detail/set_color__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[47.760805] (color_detect) StdoutLine: {'line': b'-- Installing: /home/suixi/ros2_ws/install/color_detect/lib/libcolor_detect__rosidl_typesupport_fastrtps_cpp.so\n'}
+[47.761665] (color_detect) StdoutLine: {'line': b'-- Set runtime path of "/home/suixi/ros2_ws/install/color_detect/lib/libcolor_detect__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[47.761961] (color_detect) StdoutLine: {'line': b'-- Up-to-date: /home/suixi/ros2_ws/install/color_detect/include/color_detect/color_detect\n'}
+[47.762515] (color_detect) StdoutLine: {'line': b'-- Up-to-date: /home/suixi/ros2_ws/install/color_detect/include/color_detect/color_detect/msg\n'}
+[47.763022] (color_detect) StdoutLine: {'line': b'-- Installing: /home/suixi/ros2_ws/install/color_detect/include/color_detect/color_detect/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[47.763428] (color_detect) StdoutLine: {'line': b'-- Up-to-date: /home/suixi/ros2_ws/install/color_detect/include/color_detect/color_detect/srv\n'}
+[47.763721] (color_detect) StdoutLine: {'line': b'-- Up-to-date: /home/suixi/ros2_ws/install/color_detect/include/color_detect/color_detect/srv/detail\n'}
+[47.763982] (color_detect) StdoutLine: {'line': b'-- Installing: /home/suixi/ros2_ws/install/color_detect/include/color_detect/color_detect/srv/detail/set_color__type_support.c\n'}
+[47.764153] (color_detect) StdoutLine: {'line': b'-- Installing: /home/suixi/ros2_ws/install/color_detect/include/color_detect/color_detect/srv/detail/set_color__rosidl_typesupport_introspection_c.h\n'}
+[47.764325] (color_detect) StdoutLine: {'line': b'-- Installing: /home/suixi/ros2_ws/install/color_detect/lib/libcolor_detect__rosidl_typesupport_introspection_c.so\n'}
+[47.764591] (color_detect) StdoutLine: {'line': b'-- Set runtime path of "/home/suixi/ros2_ws/install/color_detect/lib/libcolor_detect__rosidl_typesupport_introspection_c.so" to ""\n'}
+[47.765610] (color_detect) StdoutLine: {'line': b'-- Installing: /home/suixi/ros2_ws/install/color_detect/lib/libcolor_detect__rosidl_typesupport_c.so\n'}
+[47.765970] (color_detect) StdoutLine: {'line': b'-- Set runtime path of "/home/suixi/ros2_ws/install/color_detect/lib/libcolor_detect__rosidl_typesupport_c.so" to ""\n'}
+[47.766163] (color_detect) StdoutLine: {'line': b'-- Up-to-date: /home/suixi/ros2_ws/install/color_detect/include/color_detect/color_detect\n'}
+[47.766925] (color_detect) StdoutLine: {'line': b'-- Up-to-date: /home/suixi/ros2_ws/install/color_detect/include/color_detect/color_detect/srv\n'}
+[47.767656] (color_detect) StdoutLine: {'line': b'-- Up-to-date: /home/suixi/ros2_ws/install/color_detect/include/color_detect/color_detect/srv/detail\n'}
+[47.767921] (color_detect) StdoutLine: {'line': b'-- Installing: /home/suixi/ros2_ws/install/color_detect/include/color_detect/color_detect/srv/detail/set_color__rosidl_typesupport_introspection_cpp.hpp\n'}
+[47.768077] (color_detect) StdoutLine: {'line': b'-- Installing: /home/suixi/ros2_ws/install/color_detect/include/color_detect/color_detect/srv/detail/set_color__type_support.cpp\n'}
+[47.768221] (color_detect) StdoutLine: {'line': b'-- Installing: /home/suixi/ros2_ws/install/color_detect/lib/libcolor_detect__rosidl_typesupport_introspection_cpp.so\n'}
+[47.768366] (color_detect) StdoutLine: {'line': b'-- Set runtime path of "/home/suixi/ros2_ws/install/color_detect/lib/libcolor_detect__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[47.768532] (color_detect) StdoutLine: {'line': b'-- Installing: /home/suixi/ros2_ws/install/color_detect/lib/libcolor_detect__rosidl_typesupport_cpp.so\n'}
+[47.768841] (color_detect) StdoutLine: {'line': b'-- Set runtime path of "/home/suixi/ros2_ws/install/color_detect/lib/libcolor_detect__rosidl_typesupport_cpp.so" to ""\n'}
+[47.769267] (color_detect) StdoutLine: {'line': b'-- Installing: /home/suixi/ros2_ws/install/color_detect/share/color_detect/environment/pythonpath.sh\n'}
+[47.769413] (color_detect) StdoutLine: {'line': b'-- Installing: /home/suixi/ros2_ws/install/color_detect/share/color_detect/environment/pythonpath.dsv\n'}
+[47.769592] (color_detect) StdoutLine: {'line': b'-- Installing: /home/suixi/ros2_ws/install/color_detect/local/lib/python3.10/dist-packages/color_detect-0.0.0-py3.10.egg-info\n'}
+[47.770190] (color_detect) StdoutLine: {'line': b'-- Installing: /home/suixi/ros2_ws/install/color_detect/local/lib/python3.10/dist-packages/color_detect-0.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[47.770535] (color_detect) StdoutLine: {'line': b'-- Installing: /home/suixi/ros2_ws/install/color_detect/local/lib/python3.10/dist-packages/color_detect-0.0.0-py3.10.egg-info/top_level.txt\n'}
+[47.771004] (color_detect) StdoutLine: {'line': b'-- Installing: /home/suixi/ros2_ws/install/color_detect/local/lib/python3.10/dist-packages/color_detect-0.0.0-py3.10.egg-info/PKG-INFO\n'}
+[47.771441] (color_detect) StdoutLine: {'line': b'-- Installing: /home/suixi/ros2_ws/install/color_detect/local/lib/python3.10/dist-packages/color_detect-0.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[47.772023] (color_detect) StdoutLine: {'line': b'-- Installing: /home/suixi/ros2_ws/install/color_detect/local/lib/python3.10/dist-packages/color_detect\n'}
+[47.772415] (color_detect) StdoutLine: {'line': b'-- Installing: /home/suixi/ros2_ws/install/color_detect/local/lib/python3.10/dist-packages/color_detect/color_detect_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[47.772798] (color_detect) StdoutLine: {'line': b'-- Installing: /home/suixi/ros2_ws/install/color_detect/local/lib/python3.10/dist-packages/color_detect/_color_detect_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[47.773431] (color_detect) StdoutLine: {'line': b'-- Installing: /home/suixi/ros2_ws/install/color_detect/local/lib/python3.10/dist-packages/color_detect/color_detect_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[47.773608] (color_detect) StdoutLine: {'line': b'-- Installing: /home/suixi/ros2_ws/install/color_detect/local/lib/python3.10/dist-packages/color_detect/_color_detect_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[47.773808] (color_detect) StdoutLine: {'line': b'-- Installing: /home/suixi/ros2_ws/install/color_detect/local/lib/python3.10/dist-packages/color_detect/__init__.py\n'}
+[47.773935] (color_detect) StdoutLine: {'line': b'-- Installing: /home/suixi/ros2_ws/install/color_detect/local/lib/python3.10/dist-packages/color_detect/_color_detect_s.ep.rosidl_typesupport_c.c\n'}
+[47.774264] (color_detect) StdoutLine: {'line': b'-- Installing: /home/suixi/ros2_ws/install/color_detect/local/lib/python3.10/dist-packages/color_detect/libcolor_detect__rosidl_generator_py.so\n'}
+[47.774512] (color_detect) StdoutLine: {'line': b'-- Installing: /home/suixi/ros2_ws/install/color_detect/local/lib/python3.10/dist-packages/color_detect/srv\n'}
+[47.774735] (color_detect) StdoutLine: {'line': b'-- Installing: /home/suixi/ros2_ws/install/color_detect/local/lib/python3.10/dist-packages/color_detect/srv/_set_color.py\n'}
+[47.775362] (color_detect) StdoutLine: {'line': b'-- Installing: /home/suixi/ros2_ws/install/color_detect/local/lib/python3.10/dist-packages/color_detect/srv/__init__.py\n'}
+[47.775855] (color_detect) StdoutLine: {'line': b'-- Installing: /home/suixi/ros2_ws/install/color_detect/local/lib/python3.10/dist-packages/color_detect/srv/_set_color_s.c\n'}
+[47.776282] (color_detect) StdoutLine: {'line': b'-- Installing: /home/suixi/ros2_ws/install/color_detect/local/lib/python3.10/dist-packages/color_detect/color_detect_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[47.819456] (-) TimerEvent: {}
+[47.850936] (color_detect) StdoutLine: {'line': b"Listing '/home/suixi/ros2_ws/install/color_detect/local/lib/python3.10/dist-packages/color_detect'...\n"}
+[47.851805] (color_detect) StdoutLine: {'line': b"Compiling '/home/suixi/ros2_ws/install/color_detect/local/lib/python3.10/dist-packages/color_detect/__init__.py'...\n"}
+[47.852373] (color_detect) StdoutLine: {'line': b"Listing '/home/suixi/ros2_ws/install/color_detect/local/lib/python3.10/dist-packages/color_detect/srv'...\n"}
+[47.852731] (color_detect) StdoutLine: {'line': b"Compiling '/home/suixi/ros2_ws/install/color_detect/local/lib/python3.10/dist-packages/color_detect/srv/__init__.py'...\n"}
+[47.853157] (color_detect) StdoutLine: {'line': b"Compiling '/home/suixi/ros2_ws/install/color_detect/local/lib/python3.10/dist-packages/color_detect/srv/_set_color.py'...\n"}
+[47.859738] (color_detect) StdoutLine: {'line': b'-- Installing: /home/suixi/ros2_ws/install/color_detect/local/lib/python3.10/dist-packages/color_detect/color_detect_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[47.860453] (color_detect) StdoutLine: {'line': b'-- Set runtime path of "/home/suixi/ros2_ws/install/color_detect/local/lib/python3.10/dist-packages/color_detect/color_detect_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[47.861185] (color_detect) StdoutLine: {'line': b'-- Installing: /home/suixi/ros2_ws/install/color_detect/local/lib/python3.10/dist-packages/color_detect/color_detect_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[47.861696] (color_detect) StdoutLine: {'line': b'-- Set runtime path of "/home/suixi/ros2_ws/install/color_detect/local/lib/python3.10/dist-packages/color_detect/color_detect_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[47.862295] (color_detect) StdoutLine: {'line': b'-- Installing: /home/suixi/ros2_ws/install/color_detect/local/lib/python3.10/dist-packages/color_detect/color_detect_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[47.863028] (color_detect) StdoutLine: {'line': b'-- Set runtime path of "/home/suixi/ros2_ws/install/color_detect/local/lib/python3.10/dist-packages/color_detect/color_detect_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[47.863557] (color_detect) StdoutLine: {'line': b'-- Installing: /home/suixi/ros2_ws/install/color_detect/lib/libcolor_detect__rosidl_generator_py.so\n'}
+[47.864362] (color_detect) StdoutLine: {'line': b'-- Set runtime path of "/home/suixi/ros2_ws/install/color_detect/lib/libcolor_detect__rosidl_generator_py.so" to ""\n'}
+[47.864807] (color_detect) StdoutLine: {'line': b'-- Installing: /home/suixi/ros2_ws/install/color_detect/share/color_detect/rust\n'}
+[47.865498] (color_detect) StdoutLine: {'line': b'-- Installing: /home/suixi/ros2_ws/install/color_detect/share/color_detect/rust/Cargo.toml\n'}
+[47.866362] (color_detect) StdoutLine: {'line': b'-- Installing: /home/suixi/ros2_ws/install/color_detect/share/color_detect/rust/build.rs\n'}
+[47.866652] (color_detect) StdoutLine: {'line': b'-- Installing: /home/suixi/ros2_ws/install/color_detect/share/color_detect/rust/src\n'}
+[47.867368] (color_detect) StdoutLine: {'line': b'-- Installing: /home/suixi/ros2_ws/install/color_detect/share/color_detect/rust/src/lib.rs\n'}
+[47.867655] (color_detect) StdoutLine: {'line': b'-- Installing: /home/suixi/ros2_ws/install/color_detect/share/color_detect/rust/src/srv\n'}
+[47.868035] (color_detect) StdoutLine: {'line': b'-- Installing: /home/suixi/ros2_ws/install/color_detect/share/color_detect/rust/src/srv/rmw.rs\n'}
+[47.868593] (color_detect) StdoutLine: {'line': b'-- Installing: /home/suixi/ros2_ws/install/color_detect/share/color_detect/rust/src/srv.rs\n'}
+[47.869231] (color_detect) StdoutLine: {'line': b'-- Installing: /home/suixi/ros2_ws/install/color_detect/share/color_detect/srv/SetColor.idl\n'}
+[47.869743] (color_detect) StdoutLine: {'line': b'-- Installing: /home/suixi/ros2_ws/install/color_detect/share/color_detect/srv/SetColor.srv\n'}
+[47.870221] (color_detect) StdoutLine: {'line': b'-- Installing: /home/suixi/ros2_ws/install/color_detect/share/color_detect/srv/SetColor_Request.msg\n'}
+[47.870385] (color_detect) StdoutLine: {'line': b'-- Installing: /home/suixi/ros2_ws/install/color_detect/share/color_detect/srv/SetColor_Response.msg\n'}
+[47.870854] (color_detect) StdoutLine: {'line': b'-- Installing: /home/suixi/ros2_ws/install/color_detect/lib/color_detect/image_publisher\n'}
+[47.875133] (color_detect) StdoutLine: {'line': b'-- Set runtime path of "/home/suixi/ros2_ws/install/color_detect/lib/color_detect/image_publisher" to ""\n'}
+[47.876235] (color_detect) StdoutLine: {'line': b'-- Installing: /home/suixi/ros2_ws/install/color_detect/lib/color_detect/color_detector\n'}
+[47.889691] (color_detect) StdoutLine: {'line': b'-- Set runtime path of "/home/suixi/ros2_ws/install/color_detect/lib/color_detect/color_detector" to ""\n'}
+[47.893475] (color_detect) StdoutLine: {'line': b'-- Installing: /home/suixi/ros2_ws/install/color_detect/share/ament_index/resource_index/package_run_dependencies/color_detect\n'}
+[47.895057] (color_detect) StdoutLine: {'line': b'-- Installing: /home/suixi/ros2_ws/install/color_detect/share/ament_index/resource_index/parent_prefix_path/color_detect\n'}
+[47.895968] (color_detect) StdoutLine: {'line': b'-- Installing: /home/suixi/ros2_ws/install/color_detect/share/color_detect/environment/ament_prefix_path.sh\n'}
+[47.896896] (color_detect) StdoutLine: {'line': b'-- Installing: /home/suixi/ros2_ws/install/color_detect/share/color_detect/environment/ament_prefix_path.dsv\n'}
+[47.897896] (color_detect) StdoutLine: {'line': b'-- Installing: /home/suixi/ros2_ws/install/color_detect/share/color_detect/environment/path.sh\n'}
+[47.898198] (color_detect) StdoutLine: {'line': b'-- Installing: /home/suixi/ros2_ws/install/color_detect/share/color_detect/environment/path.dsv\n'}
+[47.900030] (color_detect) StdoutLine: {'line': b'-- Installing: /home/suixi/ros2_ws/install/color_detect/share/color_detect/local_setup.bash\n'}
+[47.901805] (color_detect) StdoutLine: {'line': b'-- Installing: /home/suixi/ros2_ws/install/color_detect/share/color_detect/local_setup.sh\n'}
+[47.902191] (color_detect) StdoutLine: {'line': b'-- Installing: /home/suixi/ros2_ws/install/color_detect/share/color_detect/local_setup.zsh\n'}
+[47.902407] (color_detect) StdoutLine: {'line': b'-- Installing: /home/suixi/ros2_ws/install/color_detect/share/color_detect/local_setup.dsv\n'}
+[47.902538] (color_detect) StdoutLine: {'line': b'-- Installing: /home/suixi/ros2_ws/install/color_detect/share/color_detect/package.dsv\n'}
+[47.903314] (color_detect) StdoutLine: {'line': b'-- Installing: /home/suixi/ros2_ws/install/color_detect/share/ament_index/resource_index/packages/color_detect\n'}
+[47.904404] (color_detect) StdoutLine: {'line': b'-- Installing: /home/suixi/ros2_ws/install/color_detect/share/color_detect/cmake/export_color_detect__rosidl_generator_cExport.cmake\n'}
+[47.905583] (color_detect) StdoutLine: {'line': b'-- Installing: /home/suixi/ros2_ws/install/color_detect/share/color_detect/cmake/export_color_detect__rosidl_generator_cExport-noconfig.cmake\n'}
+[47.906186] (color_detect) StdoutLine: {'line': b'-- Installing: /home/suixi/ros2_ws/install/color_detect/share/color_detect/cmake/export_color_detect__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[47.907079] (color_detect) StdoutLine: {'line': b'-- Installing: /home/suixi/ros2_ws/install/color_detect/share/color_detect/cmake/export_color_detect__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[47.907589] (color_detect) StdoutLine: {'line': b'-- Installing: /home/suixi/ros2_ws/install/color_detect/share/color_detect/cmake/export_color_detect__rosidl_generator_cppExport.cmake\n'}
+[47.908860] (color_detect) StdoutLine: {'line': b'-- Installing: /home/suixi/ros2_ws/install/color_detect/share/color_detect/cmake/export_color_detect__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[47.909362] (color_detect) StdoutLine: {'line': b'-- Installing: /home/suixi/ros2_ws/install/color_detect/share/color_detect/cmake/export_color_detect__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[47.909612] (color_detect) StdoutLine: {'line': b'-- Installing: /home/suixi/ros2_ws/install/color_detect/share/color_detect/cmake/color_detect__rosidl_typesupport_introspection_cExport.cmake\n'}
+[47.910163] (color_detect) StdoutLine: {'line': b'-- Installing: /home/suixi/ros2_ws/install/color_detect/share/color_detect/cmake/color_detect__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[47.910388] (color_detect) StdoutLine: {'line': b'-- Installing: /home/suixi/ros2_ws/install/color_detect/share/color_detect/cmake/color_detect__rosidl_typesupport_cExport.cmake\n'}
+[47.911042] (color_detect) StdoutLine: {'line': b'-- Installing: /home/suixi/ros2_ws/install/color_detect/share/color_detect/cmake/color_detect__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[47.911448] (color_detect) StdoutLine: {'line': b'-- Installing: /home/suixi/ros2_ws/install/color_detect/share/color_detect/cmake/color_detect__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[47.911932] (color_detect) StdoutLine: {'line': b'-- Installing: /home/suixi/ros2_ws/install/color_detect/share/color_detect/cmake/color_detect__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[47.912186] (color_detect) StdoutLine: {'line': b'-- Installing: /home/suixi/ros2_ws/install/color_detect/share/color_detect/cmake/color_detect__rosidl_typesupport_cppExport.cmake\n'}
+[47.912364] (color_detect) StdoutLine: {'line': b'-- Installing: /home/suixi/ros2_ws/install/color_detect/share/color_detect/cmake/color_detect__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[47.912857] (color_detect) StdoutLine: {'line': b'-- Installing: /home/suixi/ros2_ws/install/color_detect/share/color_detect/cmake/export_color_detect__rosidl_generator_pyExport.cmake\n'}
+[47.913453] (color_detect) StdoutLine: {'line': b'-- Installing: /home/suixi/ros2_ws/install/color_detect/share/color_detect/cmake/export_color_detect__rosidl_generator_pyExport-noconfig.cmake\n'}
+[47.913727] (color_detect) StdoutLine: {'line': b'-- Installing: /home/suixi/ros2_ws/install/color_detect/share/color_detect/cmake/rosidl_cmake-extras.cmake\n'}
+[47.913864] (color_detect) StdoutLine: {'line': b'-- Installing: /home/suixi/ros2_ws/install/color_detect/share/color_detect/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[47.914308] (color_detect) StdoutLine: {'line': b'-- Installing: /home/suixi/ros2_ws/install/color_detect/share/color_detect/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[47.914555] (color_detect) StdoutLine: {'line': b'-- Installing: /home/suixi/ros2_ws/install/color_detect/share/color_detect/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[47.915579] (color_detect) StdoutLine: {'line': b'-- Installing: /home/suixi/ros2_ws/install/color_detect/share/color_detect/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[47.915849] (color_detect) StdoutLine: {'line': b'-- Installing: /home/suixi/ros2_ws/install/color_detect/share/color_detect/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[47.916154] (color_detect) StdoutLine: {'line': b'-- Installing: /home/suixi/ros2_ws/install/color_detect/share/color_detect/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[47.916593] (color_detect) StdoutLine: {'line': b'-- Installing: /home/suixi/ros2_ws/install/color_detect/share/color_detect/cmake/rosidl_cmake_aggregate_target-extras.cmake\n'}
+[47.917196] (color_detect) StdoutLine: {'line': b'-- Installing: /home/suixi/ros2_ws/install/color_detect/share/color_detect/cmake/color_detectConfig.cmake\n'}
+[47.917455] (color_detect) StdoutLine: {'line': b'-- Installing: /home/suixi/ros2_ws/install/color_detect/share/color_detect/cmake/color_detectConfig-version.cmake\n'}
+[47.917719] (color_detect) StdoutLine: {'line': b'-- Installing: /home/suixi/ros2_ws/install/color_detect/share/color_detect/package.xml\n'}
+[47.919903] (-) TimerEvent: {}
+[47.923678] (color_detect) CommandEnded: {'returncode': 0}
+[48.000756] (color_detect) JobEnded: {'identifier': 'color_detect', 'rc': 0}
+[48.005250] (-) EventReactorShutdown: {}

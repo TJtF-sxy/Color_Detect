@@ -1,0 +1,203 @@
+[0.034s] Invoking command in '/home/suixi/ros2_ws/build/color_detect': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/suixi/ros2_ws/build/color_detect -- -j8 -l8
+[0.152s] [35m[1mConsolidate compiler generated dependencies of target color_detect__rosidl_generator_c[0m
+[0.162s] [35m[1mConsolidate compiler generated dependencies of target image_publisher[0m
+[0.210s] [  2%] Built target color_detect__rs
+[0.211s] [ 11%] Built target color_detect__rosidl_generator_c
+[0.238s] [ 13%] Built target color_detect__cpp
+[0.242s] [ 19%] Built target image_publisher
+[0.243s] [35m[1mConsolidate compiler generated dependencies of target color_detect__rosidl_typesupport_fastrtps_c[0m
+[0.245s] [35m[1mConsolidate compiler generated dependencies of target color_detect__rosidl_typesupport_c[0m
+[0.249s] [35m[1mConsolidate compiler generated dependencies of target color_detect__rosidl_typesupport_introspection_c[0m
+[0.274s] [35m[1mConsolidate compiler generated dependencies of target color_detect__rosidl_typesupport_fastrtps_cpp[0m
+[0.275s] [ 19%] Built target ament_cmake_python_copy_color_detect
+[0.283s] [35m[1mConsolidate compiler generated dependencies of target color_detect__rosidl_typesupport_introspection_cpp[0m
+[0.284s] [35m[1mConsolidate compiler generated dependencies of target color_detect__rosidl_typesupport_cpp[0m
+[0.286s] [ 22%] [32mBuilding CXX object CMakeFiles/color_detect__rosidl_typesupport_c.dir/rosidl_typesupport_c/color_detect/srv/set_color__type_support.cpp.o[0m
+[0.288s] [ 25%] [32mBuilding C object CMakeFiles/color_detect__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/color_detect/srv/detail/set_color__type_support.c.o[0m
+[0.291s] [ 33%] Built target color_detect__rosidl_typesupport_fastrtps_c
+[0.317s] [ 36%] [32mBuilding CXX object CMakeFiles/color_detect__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/color_detect/srv/detail/dds_fastrtps/set_color__type_support.cpp.o[0m
+[0.317s] [ 38%] [32mBuilding CXX object CMakeFiles/color_detect__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/color_detect/srv/detail/set_color__type_support.cpp.o[0m
+[0.325s] [ 41%] [32mBuilding CXX object CMakeFiles/color_detect__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/color_detect/srv/set_color__type_support.cpp.o[0m
+[0.399s] [ 44%] [32m[1mLinking CXX shared library libcolor_detect__rosidl_typesupport_c.so[0m
+[0.412s] [ 47%] [32m[1mLinking C shared library libcolor_detect__rosidl_typesupport_introspection_c.so[0m
+[1.215s] [ 50%] Built target color_detect__rosidl_typesupport_introspection_c
+[1.262s] [ 52%] Built target color_detect__rosidl_typesupport_c
+[1.390s] running egg_info
+[1.393s] writing color_detect.egg-info/PKG-INFO
+[1.394s] writing dependency_links to color_detect.egg-info/dependency_links.txt
+[1.395s] writing top-level names to color_detect.egg-info/top_level.txt
+[1.410s] reading manifest file 'color_detect.egg-info/SOURCES.txt'
+[1.410s] writing manifest file 'color_detect.egg-info/SOURCES.txt'
+[1.460s] [ 55%] [32m[1mLinking CXX shared library libcolor_detect__rosidl_typesupport_cpp.so[0m
+[1.501s] [ 55%] Built target ament_cmake_python_build_color_detect_egg
+[1.924s] [ 58%] [32m[1mLinking CXX shared library libcolor_detect__rosidl_typesupport_introspection_cpp.so[0m
+[1.962s] [ 61%] [32m[1mLinking CXX shared library libcolor_detect__rosidl_typesupport_fastrtps_cpp.so[0m
+[2.290s] [ 63%] Built target color_detect__rosidl_typesupport_cpp
+[2.326s] [35m[1mConsolidate compiler generated dependencies of target color_detector[0m
+[2.385s] [ 66%] [32m[1mLinking CXX executable color_detector[0m
+[2.802s] [ 69%] Built target color_detect__rosidl_typesupport_introspection_cpp
+[2.872s] [ 72%] Built target color_detect__rosidl_typesupport_fastrtps_cpp
+[2.926s] [ 72%] Built target color_detect
+[2.984s] [ 75%] Built target color_detect__py
+[3.022s] [35m[1mConsolidate compiler generated dependencies of target color_detect__rosidl_generator_py[0m
+[3.064s] [ 77%] [32m[1mLinking C shared library rosidl_generator_py/color_detect/libcolor_detect__rosidl_generator_py.so[0m
+[3.838s] [ 80%] Built target color_detect__rosidl_generator_py
+[3.865s] [35m[1mConsolidate compiler generated dependencies of target color_detect__rosidl_typesupport_c__pyext[0m
+[3.869s] [35m[1mConsolidate compiler generated dependencies of target color_detect__rosidl_typesupport_introspection_c__pyext[0m
+[3.870s] [35m[1mConsolidate compiler generated dependencies of target color_detect__rosidl_typesupport_fastrtps_c__pyext[0m
+[3.911s] [ 83%] [32m[1mLinking C shared library rosidl_generator_py/color_detect/color_detect_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[3.911s] [ 86%] [32m[1mLinking C shared library rosidl_generator_py/color_detect/color_detect_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[3.918s] [ 88%] [32m[1mLinking C shared library rosidl_generator_py/color_detect/color_detect_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[4.541s] [ 91%] Built target color_detect__rosidl_typesupport_introspection_c__pyext
+[4.545s] [ 97%] Built target color_detect__rosidl_typesupport_fastrtps_c__pyext
+[4.546s] [ 97%] Built target color_detect__rosidl_typesupport_c__pyext
+[5.069s] [100%] Built target color_detector
+[5.090s] Invoked command in '/home/suixi/ros2_ws/build/color_detect' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/suixi/ros2_ws/build/color_detect -- -j8 -l8
+[5.109s] Invoking command in '/home/suixi/ros2_ws/build/color_detect': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/suixi/ros2_ws/build/color_detect
+[5.124s] -- Install configuration: ""
+[5.125s] -- Up-to-date: /home/suixi/ros2_ws/install/color_detect/share/ament_index/resource_index/rosidl_interfaces/color_detect
+[5.125s] -- Up-to-date: /home/suixi/ros2_ws/install/color_detect/include/color_detect/color_detect
+[5.125s] -- Up-to-date: /home/suixi/ros2_ws/install/color_detect/include/color_detect/color_detect/msg
+[5.126s] -- Up-to-date: /home/suixi/ros2_ws/install/color_detect/include/color_detect/color_detect/msg/rosidl_generator_c__visibility_control.h
+[5.126s] -- Up-to-date: /home/suixi/ros2_ws/install/color_detect/include/color_detect/color_detect/srv
+[5.126s] -- Up-to-date: /home/suixi/ros2_ws/install/color_detect/include/color_detect/color_detect/srv/detail
+[5.127s] -- Up-to-date: /home/suixi/ros2_ws/install/color_detect/include/color_detect/color_detect/srv/detail/set_color__functions.h
+[5.127s] -- Up-to-date: /home/suixi/ros2_ws/install/color_detect/include/color_detect/color_detect/srv/detail/set_color__functions.c
+[5.128s] -- Up-to-date: /home/suixi/ros2_ws/install/color_detect/include/color_detect/color_detect/srv/detail/set_color__struct.h
+[5.128s] -- Up-to-date: /home/suixi/ros2_ws/install/color_detect/include/color_detect/color_detect/srv/detail/set_color__type_support.h
+[5.128s] -- Up-to-date: /home/suixi/ros2_ws/install/color_detect/include/color_detect/color_detect/srv/set_color.h
+[5.129s] -- Up-to-date: /home/suixi/ros2_ws/install/color_detect/share/color_detect/environment/library_path.sh
+[5.130s] -- Up-to-date: /home/suixi/ros2_ws/install/color_detect/share/color_detect/environment/library_path.dsv
+[5.131s] -- Up-to-date: /home/suixi/ros2_ws/install/color_detect/lib/libcolor_detect__rosidl_generator_c.so
+[5.131s] -- Up-to-date: /home/suixi/ros2_ws/install/color_detect/include/color_detect/color_detect
+[5.132s] -- Up-to-date: /home/suixi/ros2_ws/install/color_detect/include/color_detect/color_detect/msg
+[5.132s] -- Up-to-date: /home/suixi/ros2_ws/install/color_detect/include/color_detect/color_detect/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[5.132s] -- Up-to-date: /home/suixi/ros2_ws/install/color_detect/include/color_detect/color_detect/srv
+[5.133s] -- Up-to-date: /home/suixi/ros2_ws/install/color_detect/include/color_detect/color_detect/srv/detail
+[5.133s] -- Up-to-date: /home/suixi/ros2_ws/install/color_detect/include/color_detect/color_detect/srv/detail/set_color__rosidl_typesupport_fastrtps_c.h
+[5.134s] -- Up-to-date: /home/suixi/ros2_ws/install/color_detect/lib/libcolor_detect__rosidl_typesupport_fastrtps_c.so
+[5.134s] -- Up-to-date: /home/suixi/ros2_ws/install/color_detect/include/color_detect/color_detect
+[5.135s] -- Up-to-date: /home/suixi/ros2_ws/install/color_detect/include/color_detect/color_detect/msg
+[5.137s] -- Up-to-date: /home/suixi/ros2_ws/install/color_detect/include/color_detect/color_detect/msg/rosidl_generator_cpp__visibility_control.hpp
+[5.138s] -- Up-to-date: /home/suixi/ros2_ws/install/color_detect/include/color_detect/color_detect/srv
+[5.138s] -- Up-to-date: /home/suixi/ros2_ws/install/color_detect/include/color_detect/color_detect/srv/detail
+[5.138s] -- Up-to-date: /home/suixi/ros2_ws/install/color_detect/include/color_detect/color_detect/srv/detail/set_color__struct.hpp
+[5.139s] -- Up-to-date: /home/suixi/ros2_ws/install/color_detect/include/color_detect/color_detect/srv/detail/set_color__type_support.hpp
+[5.139s] -- Up-to-date: /home/suixi/ros2_ws/install/color_detect/include/color_detect/color_detect/srv/detail/set_color__builder.hpp
+[5.140s] -- Up-to-date: /home/suixi/ros2_ws/install/color_detect/include/color_detect/color_detect/srv/detail/set_color__traits.hpp
+[5.140s] -- Up-to-date: /home/suixi/ros2_ws/install/color_detect/include/color_detect/color_detect/srv/set_color.hpp
+[5.140s] -- Up-to-date: /home/suixi/ros2_ws/install/color_detect/include/color_detect/color_detect
+[5.141s] -- Up-to-date: /home/suixi/ros2_ws/install/color_detect/include/color_detect/color_detect/msg
+[5.142s] -- Up-to-date: /home/suixi/ros2_ws/install/color_detect/include/color_detect/color_detect/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[5.142s] -- Up-to-date: /home/suixi/ros2_ws/install/color_detect/include/color_detect/color_detect/srv
+[5.143s] -- Up-to-date: /home/suixi/ros2_ws/install/color_detect/include/color_detect/color_detect/srv/detail
+[5.143s] -- Up-to-date: /home/suixi/ros2_ws/install/color_detect/include/color_detect/color_detect/srv/detail/dds_fastrtps
+[5.144s] -- Up-to-date: /home/suixi/ros2_ws/install/color_detect/include/color_detect/color_detect/srv/detail/set_color__rosidl_typesupport_fastrtps_cpp.hpp
+[5.144s] -- Installing: /home/suixi/ros2_ws/install/color_detect/lib/libcolor_detect__rosidl_typesupport_fastrtps_cpp.so
+[5.144s] -- Set runtime path of "/home/suixi/ros2_ws/install/color_detect/lib/libcolor_detect__rosidl_typesupport_fastrtps_cpp.so" to ""
+[5.145s] -- Up-to-date: /home/suixi/ros2_ws/install/color_detect/include/color_detect/color_detect
+[5.145s] -- Up-to-date: /home/suixi/ros2_ws/install/color_detect/include/color_detect/color_detect/msg
+[5.145s] -- Up-to-date: /home/suixi/ros2_ws/install/color_detect/include/color_detect/color_detect/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[5.145s] -- Up-to-date: /home/suixi/ros2_ws/install/color_detect/include/color_detect/color_detect/srv
+[5.145s] -- Up-to-date: /home/suixi/ros2_ws/install/color_detect/include/color_detect/color_detect/srv/detail
+[5.146s] -- Up-to-date: /home/suixi/ros2_ws/install/color_detect/include/color_detect/color_detect/srv/detail/set_color__type_support.c
+[5.146s] -- Up-to-date: /home/suixi/ros2_ws/install/color_detect/include/color_detect/color_detect/srv/detail/set_color__rosidl_typesupport_introspection_c.h
+[5.146s] -- Installing: /home/suixi/ros2_ws/install/color_detect/lib/libcolor_detect__rosidl_typesupport_introspection_c.so
+[5.146s] -- Set runtime path of "/home/suixi/ros2_ws/install/color_detect/lib/libcolor_detect__rosidl_typesupport_introspection_c.so" to ""
+[5.147s] -- Installing: /home/suixi/ros2_ws/install/color_detect/lib/libcolor_detect__rosidl_typesupport_c.so
+[5.147s] -- Set runtime path of "/home/suixi/ros2_ws/install/color_detect/lib/libcolor_detect__rosidl_typesupport_c.so" to ""
+[5.147s] -- Up-to-date: /home/suixi/ros2_ws/install/color_detect/include/color_detect/color_detect
+[5.147s] -- Up-to-date: /home/suixi/ros2_ws/install/color_detect/include/color_detect/color_detect/srv
+[5.147s] -- Up-to-date: /home/suixi/ros2_ws/install/color_detect/include/color_detect/color_detect/srv/detail
+[5.147s] -- Up-to-date: /home/suixi/ros2_ws/install/color_detect/include/color_detect/color_detect/srv/detail/set_color__rosidl_typesupport_introspection_cpp.hpp
+[5.148s] -- Up-to-date: /home/suixi/ros2_ws/install/color_detect/include/color_detect/color_detect/srv/detail/set_color__type_support.cpp
+[5.148s] -- Installing: /home/suixi/ros2_ws/install/color_detect/lib/libcolor_detect__rosidl_typesupport_introspection_cpp.so
+[5.148s] -- Set runtime path of "/home/suixi/ros2_ws/install/color_detect/lib/libcolor_detect__rosidl_typesupport_introspection_cpp.so" to ""
+[5.148s] -- Installing: /home/suixi/ros2_ws/install/color_detect/lib/libcolor_detect__rosidl_typesupport_cpp.so
+[5.149s] -- Set runtime path of "/home/suixi/ros2_ws/install/color_detect/lib/libcolor_detect__rosidl_typesupport_cpp.so" to ""
+[5.149s] -- Up-to-date: /home/suixi/ros2_ws/install/color_detect/share/color_detect/environment/pythonpath.sh
+[5.149s] -- Up-to-date: /home/suixi/ros2_ws/install/color_detect/share/color_detect/environment/pythonpath.dsv
+[5.149s] -- Up-to-date: /home/suixi/ros2_ws/install/color_detect/local/lib/python3.10/dist-packages/color_detect-0.0.0-py3.10.egg-info
+[5.150s] -- Installing: /home/suixi/ros2_ws/install/color_detect/local/lib/python3.10/dist-packages/color_detect-0.0.0-py3.10.egg-info/SOURCES.txt
+[5.150s] -- Installing: /home/suixi/ros2_ws/install/color_detect/local/lib/python3.10/dist-packages/color_detect-0.0.0-py3.10.egg-info/top_level.txt
+[5.150s] -- Installing: /home/suixi/ros2_ws/install/color_detect/local/lib/python3.10/dist-packages/color_detect-0.0.0-py3.10.egg-info/PKG-INFO
+[5.150s] -- Installing: /home/suixi/ros2_ws/install/color_detect/local/lib/python3.10/dist-packages/color_detect-0.0.0-py3.10.egg-info/dependency_links.txt
+[5.151s] -- Up-to-date: /home/suixi/ros2_ws/install/color_detect/local/lib/python3.10/dist-packages/color_detect
+[5.151s] -- Installing: /home/suixi/ros2_ws/install/color_detect/local/lib/python3.10/dist-packages/color_detect/color_detect_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[5.151s] -- Up-to-date: /home/suixi/ros2_ws/install/color_detect/local/lib/python3.10/dist-packages/color_detect/_color_detect_s.ep.rosidl_typesupport_fastrtps_c.c
+[5.151s] -- Installing: /home/suixi/ros2_ws/install/color_detect/local/lib/python3.10/dist-packages/color_detect/color_detect_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[5.152s] -- Up-to-date: /home/suixi/ros2_ws/install/color_detect/local/lib/python3.10/dist-packages/color_detect/_color_detect_s.ep.rosidl_typesupport_introspection_c.c
+[5.152s] -- Up-to-date: /home/suixi/ros2_ws/install/color_detect/local/lib/python3.10/dist-packages/color_detect/__init__.py
+[5.152s] -- Up-to-date: /home/suixi/ros2_ws/install/color_detect/local/lib/python3.10/dist-packages/color_detect/_color_detect_s.ep.rosidl_typesupport_c.c
+[5.152s] -- Installing: /home/suixi/ros2_ws/install/color_detect/local/lib/python3.10/dist-packages/color_detect/libcolor_detect__rosidl_generator_py.so
+[5.153s] -- Up-to-date: /home/suixi/ros2_ws/install/color_detect/local/lib/python3.10/dist-packages/color_detect/srv
+[5.153s] -- Up-to-date: /home/suixi/ros2_ws/install/color_detect/local/lib/python3.10/dist-packages/color_detect/srv/_set_color.py
+[5.153s] -- Up-to-date: /home/suixi/ros2_ws/install/color_detect/local/lib/python3.10/dist-packages/color_detect/srv/__init__.py
+[5.154s] -- Up-to-date: /home/suixi/ros2_ws/install/color_detect/local/lib/python3.10/dist-packages/color_detect/srv/_set_color_s.c
+[5.154s] -- Installing: /home/suixi/ros2_ws/install/color_detect/local/lib/python3.10/dist-packages/color_detect/color_detect_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[5.223s] Listing '/home/suixi/ros2_ws/install/color_detect/local/lib/python3.10/dist-packages/color_detect'...
+[5.223s] Listing '/home/suixi/ros2_ws/install/color_detect/local/lib/python3.10/dist-packages/color_detect/srv'...
+[5.233s] -- Installing: /home/suixi/ros2_ws/install/color_detect/local/lib/python3.10/dist-packages/color_detect/color_detect_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[5.234s] -- Set runtime path of "/home/suixi/ros2_ws/install/color_detect/local/lib/python3.10/dist-packages/color_detect/color_detect_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+[5.234s] -- Installing: /home/suixi/ros2_ws/install/color_detect/local/lib/python3.10/dist-packages/color_detect/color_detect_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[5.235s] -- Set runtime path of "/home/suixi/ros2_ws/install/color_detect/local/lib/python3.10/dist-packages/color_detect/color_detect_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+[5.236s] -- Installing: /home/suixi/ros2_ws/install/color_detect/local/lib/python3.10/dist-packages/color_detect/color_detect_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[5.237s] -- Set runtime path of "/home/suixi/ros2_ws/install/color_detect/local/lib/python3.10/dist-packages/color_detect/color_detect_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+[5.238s] -- Installing: /home/suixi/ros2_ws/install/color_detect/lib/libcolor_detect__rosidl_generator_py.so
+[5.239s] -- Set runtime path of "/home/suixi/ros2_ws/install/color_detect/lib/libcolor_detect__rosidl_generator_py.so" to ""
+[5.239s] -- Up-to-date: /home/suixi/ros2_ws/install/color_detect/share/color_detect/rust
+[5.241s] -- Up-to-date: /home/suixi/ros2_ws/install/color_detect/share/color_detect/rust/Cargo.toml
+[5.242s] -- Up-to-date: /home/suixi/ros2_ws/install/color_detect/share/color_detect/rust/build.rs
+[5.242s] -- Up-to-date: /home/suixi/ros2_ws/install/color_detect/share/color_detect/rust/src
+[5.242s] -- Up-to-date: /home/suixi/ros2_ws/install/color_detect/share/color_detect/rust/src/lib.rs
+[5.242s] -- Up-to-date: /home/suixi/ros2_ws/install/color_detect/share/color_detect/rust/src/srv
+[5.242s] -- Up-to-date: /home/suixi/ros2_ws/install/color_detect/share/color_detect/rust/src/srv/rmw.rs
+[5.243s] -- Up-to-date: /home/suixi/ros2_ws/install/color_detect/share/color_detect/rust/src/srv.rs
+[5.243s] -- Up-to-date: /home/suixi/ros2_ws/install/color_detect/share/color_detect/srv/SetColor.idl
+[5.243s] -- Up-to-date: /home/suixi/ros2_ws/install/color_detect/share/color_detect/srv/SetColor.srv
+[5.243s] -- Up-to-date: /home/suixi/ros2_ws/install/color_detect/share/color_detect/srv/SetColor_Request.msg
+[5.243s] -- Up-to-date: /home/suixi/ros2_ws/install/color_detect/share/color_detect/srv/SetColor_Response.msg
+[5.244s] -- Up-to-date: /home/suixi/ros2_ws/install/color_detect/lib/color_detect/image_publisher
+[5.244s] -- Installing: /home/suixi/ros2_ws/install/color_detect/lib/color_detect/color_detector
+[5.255s] -- Set runtime path of "/home/suixi/ros2_ws/install/color_detect/lib/color_detect/color_detector" to ""
+[5.256s] -- Up-to-date: /home/suixi/ros2_ws/install/color_detect/share/ament_index/resource_index/package_run_dependencies/color_detect
+[5.256s] -- Up-to-date: /home/suixi/ros2_ws/install/color_detect/share/ament_index/resource_index/parent_prefix_path/color_detect
+[5.257s] -- Up-to-date: /home/suixi/ros2_ws/install/color_detect/share/color_detect/environment/ament_prefix_path.sh
+[5.257s] -- Up-to-date: /home/suixi/ros2_ws/install/color_detect/share/color_detect/environment/ament_prefix_path.dsv
+[5.257s] -- Up-to-date: /home/suixi/ros2_ws/install/color_detect/share/color_detect/environment/path.sh
+[5.258s] -- Up-to-date: /home/suixi/ros2_ws/install/color_detect/share/color_detect/environment/path.dsv
+[5.259s] -- Up-to-date: /home/suixi/ros2_ws/install/color_detect/share/color_detect/local_setup.bash
+[5.259s] -- Up-to-date: /home/suixi/ros2_ws/install/color_detect/share/color_detect/local_setup.sh
+[5.260s] -- Up-to-date: /home/suixi/ros2_ws/install/color_detect/share/color_detect/local_setup.zsh
+[5.260s] -- Up-to-date: /home/suixi/ros2_ws/install/color_detect/share/color_detect/local_setup.dsv
+[5.260s] -- Installing: /home/suixi/ros2_ws/install/color_detect/share/color_detect/package.dsv
+[5.261s] -- Up-to-date: /home/suixi/ros2_ws/install/color_detect/share/ament_index/resource_index/packages/color_detect
+[5.261s] -- Up-to-date: /home/suixi/ros2_ws/install/color_detect/share/color_detect/cmake/export_color_detect__rosidl_generator_cExport.cmake
+[5.261s] -- Up-to-date: /home/suixi/ros2_ws/install/color_detect/share/color_detect/cmake/export_color_detect__rosidl_generator_cExport-noconfig.cmake
+[5.262s] -- Up-to-date: /home/suixi/ros2_ws/install/color_detect/share/color_detect/cmake/export_color_detect__rosidl_typesupport_fastrtps_cExport.cmake
+[5.262s] -- Up-to-date: /home/suixi/ros2_ws/install/color_detect/share/color_detect/cmake/export_color_detect__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[5.262s] -- Up-to-date: /home/suixi/ros2_ws/install/color_detect/share/color_detect/cmake/export_color_detect__rosidl_generator_cppExport.cmake
+[5.264s] -- Up-to-date: /home/suixi/ros2_ws/install/color_detect/share/color_detect/cmake/export_color_detect__rosidl_typesupport_fastrtps_cppExport.cmake
+[5.265s] -- Up-to-date: /home/suixi/ros2_ws/install/color_detect/share/color_detect/cmake/export_color_detect__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[5.265s] -- Up-to-date: /home/suixi/ros2_ws/install/color_detect/share/color_detect/cmake/color_detect__rosidl_typesupport_introspection_cExport.cmake
+[5.266s] -- Up-to-date: /home/suixi/ros2_ws/install/color_detect/share/color_detect/cmake/color_detect__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[5.266s] -- Up-to-date: /home/suixi/ros2_ws/install/color_detect/share/color_detect/cmake/color_detect__rosidl_typesupport_cExport.cmake
+[5.266s] -- Up-to-date: /home/suixi/ros2_ws/install/color_detect/share/color_detect/cmake/color_detect__rosidl_typesupport_cExport-noconfig.cmake
+[5.266s] -- Up-to-date: /home/suixi/ros2_ws/install/color_detect/share/color_detect/cmake/color_detect__rosidl_typesupport_introspection_cppExport.cmake
+[5.267s] -- Up-to-date: /home/suixi/ros2_ws/install/color_detect/share/color_detect/cmake/color_detect__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[5.267s] -- Up-to-date: /home/suixi/ros2_ws/install/color_detect/share/color_detect/cmake/color_detect__rosidl_typesupport_cppExport.cmake
+[5.267s] -- Up-to-date: /home/suixi/ros2_ws/install/color_detect/share/color_detect/cmake/color_detect__rosidl_typesupport_cppExport-noconfig.cmake
+[5.268s] -- Up-to-date: /home/suixi/ros2_ws/install/color_detect/share/color_detect/cmake/export_color_detect__rosidl_generator_pyExport.cmake
+[5.268s] -- Up-to-date: /home/suixi/ros2_ws/install/color_detect/share/color_detect/cmake/export_color_detect__rosidl_generator_pyExport-noconfig.cmake
+[5.268s] -- Up-to-date: /home/suixi/ros2_ws/install/color_detect/share/color_detect/cmake/rosidl_cmake-extras.cmake
+[5.269s] -- Up-to-date: /home/suixi/ros2_ws/install/color_detect/share/color_detect/cmake/ament_cmake_export_include_directories-extras.cmake
+[5.270s] -- Up-to-date: /home/suixi/ros2_ws/install/color_detect/share/color_detect/cmake/ament_cmake_export_libraries-extras.cmake
+[5.273s] -- Up-to-date: /home/suixi/ros2_ws/install/color_detect/share/color_detect/cmake/ament_cmake_export_targets-extras.cmake
+[5.277s] -- Up-to-date: /home/suixi/ros2_ws/install/color_detect/share/color_detect/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[5.278s] -- Up-to-date: /home/suixi/ros2_ws/install/color_detect/share/color_detect/cmake/ament_cmake_export_dependencies-extras.cmake
+[5.278s] -- Up-to-date: /home/suixi/ros2_ws/install/color_detect/share/color_detect/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[5.280s] -- Up-to-date: /home/suixi/ros2_ws/install/color_detect/share/color_detect/cmake/rosidl_cmake_aggregate_target-extras.cmake
+[5.281s] -- Up-to-date: /home/suixi/ros2_ws/install/color_detect/share/color_detect/cmake/color_detectConfig.cmake
+[5.283s] -- Up-to-date: /home/suixi/ros2_ws/install/color_detect/share/color_detect/cmake/color_detectConfig-version.cmake
+[5.283s] -- Up-to-date: /home/suixi/ros2_ws/install/color_detect/share/color_detect/package.xml
+[5.284s] Invoked command in '/home/suixi/ros2_ws/build/color_detect' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/suixi/ros2_ws/build/color_detect

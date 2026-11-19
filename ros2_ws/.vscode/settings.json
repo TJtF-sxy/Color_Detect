@@ -1,0 +1,4 @@
+{
+    "cmake.sourceDirectory": "/home/suixi/ros2_ws/src/color_detect",
+    "C_Cpp.default.compilerPath": "/usr/bin/g++"
+}

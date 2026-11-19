@@ -1,0 +1,4 @@
+[0mCMake Error: The current CMakeCache.txt directory /home/suixi/Color_Detect/ros2_ws/build/color_detect/CMakeCache.txt is different than the directory /home/suixi/ros2_ws/build/color_detect where CMakeCache.txt was created. This may result in binaries being created in the wrong place. If you are not sure, reedit the CMakeCache.txt[0m
+[0mCMake Error: The source directory "/home/suixi/ros2_ws/src/color_detect" does not exist.
+Specify --help for usage, or press the help button on the CMake GUI.[0m
+gmake: *** [Makefile:843: cmake_check_build_system] Error 1
